@@ -1,0 +1,117 @@
+@import "../_base/branding.scss";
+
+.work {
+  margin-bottom: $mar-y-l;
+  background-color: var(--color-dark-3);
+
+  .grid {
+    grid-row-gap: $pad-y-s;
+
+    @media (min-width: 1200px) {
+      & {
+        grid-row-gap: $pad-y-m;
+      }
+    }
+
+    @media (min-width: 1450px) {
+      & {
+        grid-row-gap: $pad-y-l;
+      }
+    }
+
+    .work-item {
+      border-top: 1px solid var(--color-dark-2);
+      padding-top: $pad-y-s;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column: span 4;
+      gap: 1.5rem;
+
+      .list {
+        padding-left: 0;
+        grid-column: span 4;
+
+        @media (min-width: 768px) {
+          & {
+            grid-column: span 1;
+          }
+        }
+
+        @media (min-width: 1450px) {
+          & {
+            padding-left: 1rem;
+          }
+        }
+      }
+
+      .work-wrap {
+        display: grid;
+        grid-column: span 4;
+        gap: 1.5rem;
+
+        @media (min-width: 768px) {
+          & {
+            grid-column: 2 / span 3;
+          }
+        }
+
+        .work-img-container {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 3 / 2;
+          overflow: hidden;
+          border-radius: 0.4rem;
+
+          img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: auto;
+            transition: all 500ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+          }
+        }
+
+        .work-detail-wrap {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-end;
+          gap: 2rem;
+
+          .work-detail {
+            display: inline-grid;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+
+            .work-title {
+              display: inline;
+              white-space: nowrap;
+            }
+
+            .work-brief {
+              display: inline;
+              font-size: $font-size-base;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: clip;
+            }
+          }
+        }
+
+        &:hover {
+          img {
+            transform: translate(-50%, -50%) scale(1.08) !important;
+          }
+        }
+      }
+
+      &:first-child {
+        img {
+          width: 120% !important;
+        }
+      }
+    }
+  }
+}

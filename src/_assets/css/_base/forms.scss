@@ -1,0 +1,53 @@
+@import "./branding.scss";
+
+/* Remove all native broswer styling from all elements
+------------------------------------------------------------- */
+input,
+input[type="number"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+textarea,
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Button Overrides
+------------------------------------------------------------- */
+[role="button"] {
+  cursor: pointer;
+}
+button {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.75rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 6.25rem;
+  border: 0.5px solid var(--color-gray-1);
+  background: none;
+  color: var(--color-text);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 200ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+
+  &.btn-l {
+    font-size: 2.2rem;
+    padding: 1rem 1.75rem;
+
+    &:hover {
+      border: 0;
+      background: var(--color-gray-2);
+      a {
+        color: var(--color-dark-1);
+      }
+    }
+  }
+}

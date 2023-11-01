@@ -1,0 +1,119 @@
+@import "../_base/branding.scss";
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  border-bottom: 1px solid var(--color-dark-2);
+  background: var(--color-dark-4);
+  backdrop-filter: blur(50px);
+
+  span {
+    font-size: $font-size-base;
+    cursor: pointer;
+    transition: all 200ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+
+    &:hover {
+      color: var(--color-white);
+    }
+  }
+}
+
+.nav-bar {
+  padding: 2rem 0;
+}
+
+.menu-toggle {
+  grid-column: 4;
+  justify-self: end;
+
+  @media (min-width: 768px) {
+    & {
+      grid-column: 2;
+      justify-self: unset;
+    }
+  }
+
+  @media (min-width: 1450px) {
+    & {
+      grid-column: 3;
+    }
+  }
+}
+
+.menu-wrap {
+  height: 0;
+  overflow: hidden;
+  transition: all 800ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+}
+
+.menu {
+  padding-top: 0;
+  gap: $pad-y-s;
+  opacity: 0;
+  animation-duration: 1200ms;
+  animation-timing-function: cubic-bezier(0.77, 0.08, 0.51, 0.83);
+  animation-fill-mode: forwards;
+  grid-column: 2;
+
+  @media (min-width: 1450px) {
+    & {
+      grid-column: 3 / span 2;
+    }
+  }
+
+  .menu-nav {
+    gap: 0.5rem;
+
+    .menu-nav-item {
+      h1 {
+        text-indent: inherit;
+      }
+    }
+  }
+}
+
+@keyframes menuOpen {
+  0% {
+    padding-top: 0;
+    opacity: 0;
+  }
+  100% {
+    padding-top: $pad-y-s;
+    opacity: 1;
+  }
+}
+
+@keyframes menuClose {
+  0% {
+    padding-top: $pad-y-s;
+    opacity: 1;
+  }
+  100% {
+    padding-top: 0;
+    opacity: 0;
+  }
+}
+
+nav.active {
+  .menu-wrap {
+    height: 35vh;
+
+    @media (min-width: 768px) {
+      & {
+        height: 40vh;
+      }
+    }
+  }
+
+  .menu {
+    animation-name: menuOpen;
+  }
+}
+
+nav:not(.active) {
+  .menu {
+    animation-name: menuClose;
+  }
+}

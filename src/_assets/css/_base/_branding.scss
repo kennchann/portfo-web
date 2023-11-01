@@ -1,0 +1,47 @@
+:root {
+  // Colors - Text
+  --color-text: #bebebe;
+
+  // Colors - Dark
+  --color-dark-1: #050505;
+  --color-dark-2: rgba(255, 255, 255, 0.05);
+  --color-dark-3: #0b0b0b;
+  --color-dark-4: rgba(5, 5, 5, 0.6);
+
+  // Colors - Light
+  --color-gray-1: #656565;
+  --color-gray-2: #eeeeee;
+  --color-white: #fff;
+}
+// Fonts
+$font-family-heading: "PP Neue Montreal", Helvetica, system-ui, sans-serif;
+$font-family-body: "PP Neue Montreal", Helvetica, system-ui, sans-serif;
+$font-weight-heading: normal;
+$font-weight-body: 400;
+
+/* Base Font Sizes
+--------------------------------------------*/
+$font-size-base: 16px;
+$font-size-body: calc(18px / $font-size-base) + rem;
+$font-size-large: calc(28px / $font-size-base) + rem;
+$font-size-small: calc(14px / $font-size-base) + rem;
+
+// Vertical Margin
+$mar-y-s: 2.5rem;
+$mar-y-m: 5rem;
+$mar-y-l: 10rem;
+
+// Vertical Padding
+$pad-y-s: 2.5rem;
+$pad-y-m: 5rem;
+$pad-y-l: 10rem;
+
+// Horizontal Margin
+$mar-x-s: 2.5rem;
+$mar-x-m: 5rem;
+$mar-x-l: 10rem;
+
+// Horizontal Padding
+$pad-x-s: 2.5rem;
+$pad-x-m: 5rem;
+$pad-x-l: 10rem;

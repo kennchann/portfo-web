@@ -1,0 +1,81 @@
+@import "./branding.scss";
+
+// Grid Wrap
+.container {
+  position: relative;
+  margin: 0 1.25rem;
+
+  @media (min-width: 1200px) {
+    & {
+      margin: 0 2.625rem;
+    }
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+
+  @media (min-width: 1450px) {
+    & {
+      grid-template-columns: repeat(8, 1fr);
+    }
+  }
+}
+.wrap {
+  position: relative;
+  width: 100%;
+  padding: 2.5rem 0;
+}
+
+// Grid Column
+.col-xs {
+  grid-column: span 1;
+}
+.col-s {
+  grid-column: span 1;
+  white-space: nowrap;
+
+  @media (min-width: 1450px) {
+    & {
+      grid-column: 1 / span 2;
+    }
+  }
+}
+.col-m {
+  grid-column: span 3;
+}
+.col-l {
+  grid-column: span 4;
+}
+.col-xl {
+  grid-column: span 4;
+
+  @media (min-width: 768px) {
+    & {
+      grid-column: 2 / span 3;
+    }
+  }
+  @media (min-width: 1450px) {
+    & {
+      grid-column: 3 / span 6;
+    }
+  }
+}
+.grid-end {
+  grid-column: 4;
+  justify-self: end;
+
+  @media (min-width: 1450px) {
+    & {
+      grid-column: 8;
+    }
+  }
+}
+
+// Highlight List
+.list {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}

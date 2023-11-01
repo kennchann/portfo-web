@@ -1,0 +1,25 @@
+@import "./branding.scss";
+
+.ellipse-container {
+  position: relative;
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+
+  .ellipse-wrap {
+    grid-column: 1 / 5;
+
+    &:last-child {
+      grid-column: 3 / -1;
+    }
+
+    .ellipse {
+      position: relative;
+      border-radius: 50%;
+      width: 100%;
+      height: auto;
+      padding-top: 100%;
+      border: 1px solid var(--color-gray-1);
+    }
+  }
+}

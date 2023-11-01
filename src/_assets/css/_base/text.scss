@@ -1,0 +1,73 @@
+@import "./branding.scss";
+
+html {
+  font-size: $font-size-base;
+
+  @media (min-width: 2400px) {
+    font-size: 1vw;
+  }
+}
+
+/* Basic Type */
+body {
+  color: var(--color-text);
+  font-family: $font-family-body;
+  font-style: normal;
+  text-transform: none;
+  font-weight: $font-weight-body;
+  line-height: 1.5;
+  text-align: left;
+}
+
+p {
+  font-size: $font-size-large;
+  text-indent: 4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+p.lead {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+p.small {
+  font-size: $font-size-small;
+}
+
+span {
+  font-size: $font-size-small;
+  color: var(--color-gray-1);
+}
+
+/* Headings */
+h1 {
+  color: var(--color-text);
+  font-family: $font-family-heading;
+  font-weight: $font-weight-heading;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  font-size: 2.6rem;
+  text-indent: 2rem;
+
+  @media (min-width: 992px) {
+    font-size: 2.8rem;
+    text-indent: 4rem;
+  }
+
+  @media (min-width: 1450px) {
+    font-size: 3rem;
+  }
+}
+
+/* Custom Class */
+.highlight {
+  font-family: $font-family-body;
+  font-size: $font-size-small;
+  font-style: normal;
+  text-transform: none;
+  text-align: left;
+  line-height: 1.8;
+}
