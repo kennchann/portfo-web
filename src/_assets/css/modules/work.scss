@@ -75,10 +75,26 @@
 
         .work-detail-wrap {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           justify-content: space-between;
-          align-items: flex-end;
+          align-items: flex-start;
           gap: 2rem;
+
+          button {
+            width: 100%;
+          }
+
+          @media (min-width: 768px) {
+            & {
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: flex-end;
+            }
+
+            button {
+              width: fit-content;
+            }
+          }
 
           .work-detail {
             display: inline-grid;

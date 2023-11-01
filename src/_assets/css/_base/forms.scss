@@ -34,6 +34,7 @@ button {
   background: none;
   color: var(--color-text);
   letter-spacing: 0.02em;
+  font-size: $font-size-small;
   cursor: pointer;
   white-space: nowrap;
   transition: all 200ms cubic-bezier(0.77, 0.08, 0.51, 0.83);

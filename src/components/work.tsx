@@ -14,7 +14,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">Culture Homes</h3>
+                <h2 className="work-title">Culture Homes</h2>
                 <span className="work-brief">End-to-end integrated solution provider for elderly care and services.</span>
               </div>
               <button>Available soon</button>
@@ -37,7 +37,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">Nuon Finance</h3>
+                <h2 className="work-title">Nuon Finance</h2>
                 <span className="work-brief">Nuon.fi is a safe and transparent DeFi protocol.</span>
               </div>
               <button>Available soon</button>
@@ -59,7 +59,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">Trusted Node</h3>
+                <h2 className="work-title">Trusted Node</h2>
                 <span className="work-brief">Decentralized, non-custodial validator service and governance hub.</span>
               </div>
               <button>Available soon</button>
@@ -78,7 +78,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">Skyteam Education</h3>
+                <h2 className="work-title">Skyteam Education</h2>
                 <span className="work-brief">Offers a range of academic courses for secondary students.</span>
               </div>
               <button>Available soon</button>
@@ -96,7 +96,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">CFSS Gradbook</h3>
+                <h2 className="work-title">CFSS Gradbook</h2>
                 <span className="work-brief">Captures the spirit and accomplishments of the graduating class.</span>
               </div>
               <button>Available soon</button>
@@ -114,7 +114,7 @@ function Work() {
             </div>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h3 className="work-title">Dogily Official</h3>
+                <h2 className="work-title">Dogily Official</h2>
                 <span className="work-brief">Creating pet-human matchy accessories that are chic yet timeless.</span>
               </div>
               <button>Available soon</button>
