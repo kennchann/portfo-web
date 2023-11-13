@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Nav from './components/nav.tsx'
 import App from './App.tsx'
 import Footer from './components/footer.tsx'
 import "./_assets/css/main.scss";
-import { BrowserRouter } from 'react-router-dom'
-
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <React.StrictMode>
+    <Nav />
     <App />
     <Footer />
-  </BrowserRouter>,
+  </React.StrictMode>,
 )

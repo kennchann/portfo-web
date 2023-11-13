@@ -18,6 +18,7 @@ select {
 
 /* Button Overrides
 ------------------------------------------------------------- */
+
 [role="button"] {
   cursor: pointer;
 }
@@ -28,16 +29,29 @@ button {
   padding: 0.75rem 1.25rem;
   justify-content: center;
   align-items: center;
+  background: none;
   gap: 0.625rem;
   border-radius: 6.25rem;
   border: 0.5px solid var(--color-gray-1);
-  background: none;
   color: var(--color-text);
   letter-spacing: 0.02em;
   font-size: $font-size-small;
   cursor: pointer;
   white-space: nowrap;
-  transition: all 200ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+  transition: all 400ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
+  backdrop-filter: blur(80px);
+
+  &:hover {
+    background: var(--color-gray-2);
+    color: var(--color-dark-1);
+
+    h1 {
+      color: var(--color-dark-1);
+    }
+    img {
+      filter: invert(1);
+    }
+  }
 
   &.btn-l {
     font-size: 2.2rem;

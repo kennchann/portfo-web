@@ -6,13 +6,13 @@ function Footer() {
       <div className="grid container">
         <div className="footer-left">
           <span className='col-s'>©2023 Kenneth Chan. All rights reserved</span>
-          <div className='list col-xs grid-mid'>
-            <a href='#' className="list-item"><span>Home</span></a>
-            <a className="list-item"><span>Work</span></a>
-            <a className="list-item"><span>About</span></a>
-            <a className="list-item"><span>Contact</span></a>
+          <div className='list col-xs'>
+            <a href='/' className="list-item"><span>Home</span></a>
+            <a className="list-item coming-soon"><span>Work</span></a>
+            <a className="list-item coming-soon"><span>About</span></a>
+            <a className="list-item coming-soon"><span>Contact</span></a>
           </div>
-          <div className='list col-xs grid-mid'>
+          <div className='list col-xs'>
             <a className="list-item"><span>Instagram</span></a>
             <a className="list-item"><span>Behance</span></a>
             <a className="list-item"><span>LinkedIn</span></a>

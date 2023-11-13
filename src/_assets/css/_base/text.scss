@@ -86,3 +86,17 @@ h2 {
   text-align: left;
   line-height: 1.8;
 }
+.coming-soon {
+  position: relative;
+
+  &::after {
+    content: "Coming";
+    position: absolute;
+    top: 5%;
+    left: calc(100% + 0.4rem);
+    color: var(--color-gray-1);
+    font-size: 0.6rem;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+}
