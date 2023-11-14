@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Home() {
   return (
     <>
@@ -47,7 +49,7 @@ function Home() {
                 <h2 className="work-title">Culture Homes</h2>
                 <span className="work-brief">End-to-end integrated solution provider for elderly care and services.</span>
               </div>
-              <a href="/work/culture-homes"><button>Explore</button></a>
+              <Link to='/work/culture-homes'><button>Explore</button></Link>
             </div>
           </div>
         </div>
@@ -70,7 +72,7 @@ function Home() {
                 <h2 className="work-title">Nuon Finance</h2>
                 <span className="work-brief">Nuon.fi is a safe and transparent DeFi protocol.</span>
               </div>
-              <a href="/work/nuon"><button>Explore</button></a>
+              <Link to='/work/nuon'><button>Explore</button></Link>
             </div>
           </div>
         </div>
