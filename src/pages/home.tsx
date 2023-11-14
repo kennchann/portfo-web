@@ -47,7 +47,7 @@ function Home() {
                 <h2 className="work-title">Culture Homes</h2>
                 <span className="work-brief">End-to-end integrated solution provider for elderly care and services.</span>
               </div>
-              <a href="/work/culture-homes"><button>Explore</button></a>
+              <a href="#/work/culture-homes"><button>Explore</button></a>
             </div>
           </div>
         </div>
