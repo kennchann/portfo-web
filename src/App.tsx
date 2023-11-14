@@ -7,7 +7,7 @@ import CultureHomes from './pages/work/culture-homes';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/">
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/work' element={<Work />} />
