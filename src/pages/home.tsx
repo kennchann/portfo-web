@@ -70,7 +70,7 @@ function Home() {
                 <h2 className="work-title">Nuon Finance</h2>
                 <span className="work-brief">Nuon.fi is a safe and transparent DeFi protocol.</span>
               </div>
-              <a href="/work/nuon"><button>Explore</button></a>
+              <a href="#/work/nuon"><button>Explore</button></a>
             </div>
           </div>
         </div>
