@@ -43,25 +43,25 @@ function CultureHomes() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./culture-logo.png" alt="" />
+                <img src="./culture-logo.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./culture-bg.png" alt="" />
+                <img src="./culture-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./culture-ui-1.png" alt="" />
+                <img src="./culture-ui-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl flex">
               <div className="img-container aspect-16-9">
-                <img src="./culture-color-1.png" alt="" />
+                <img src="./culture-color-1.webp" alt="" />
               </div>
               <div className="img-container aspect-16-9">
-                <img src="./culture-color-2.png" alt="" />
+                <img src="./culture-color-2.webp" alt="" />
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ function CultureHomes() {
           <div className="grid container">
             <div className="col-full">
               <div className="img-container aspect-9-16">
-                <img src="./culture-ui-2.png" alt="" />
+                <img src="./culture-ui-2.webp" alt="" />
               </div>
             </div>
           </div>

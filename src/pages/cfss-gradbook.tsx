@@ -34,37 +34,37 @@ function GradBook() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./cfss-bg-1.png" alt="" />
+                <img src="./cfss-bg-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./cfss-print-2.png" alt="" />
+                <img src="./cfss-print-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./cfss-print-3.png" alt="" />
+                <img src="./cfss-print-3.webp" alt="" />
               </div>
             </div>
             <div className="col-m">
               <div className="img-container aspect-1-1">
-                <img src="./cfss-bg-3.png" alt="" />
+                <img src="./cfss-bg-3.webp" alt="" />
               </div>
             </div>
             <div className="col-xxl">
               <div className="img-container aspect-4-3">
-                <img src="./cfss-bg-2.png" alt="" />
+                <img src="./cfss-bg-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./cfss-print-4.png" alt="" />
+                <img src="./cfss-print-4.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-4-9">
-                <img src="./cfss-print-5.jpg" alt="" />
+                <img src="./cfss-print-5.webp" alt="" />
               </div>
             </div>
           </div>

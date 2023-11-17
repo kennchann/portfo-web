@@ -82,7 +82,7 @@ function Home() {
             </div>
             <div className="work-wrap">
               <div className="img-container img-responsive">
-                <img src="./nuon-poster-1.jpg" alt="" />
+                <img src="./nuon-poster-1.webp" alt="" />
               </div>
               <div className="work-detail-wrap">
                 <div className="work-detail">

@@ -33,22 +33,22 @@ function Dogily() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./dogily-logo.png" alt="" />
+                <img src="./dogily-logo.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./dogily-bg.png" alt="" />
+                <img src="./dogily-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./dogily-filter-1.png" alt="" />
+                <img src="./dogily-filter-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./dogily-filter-2.png" alt="" />
+                <img src="./dogily-filter-2.webp" alt="" />
               </div>
             </div>
           </div>

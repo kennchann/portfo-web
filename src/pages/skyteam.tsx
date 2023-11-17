@@ -34,25 +34,25 @@ function Skyteam() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./skyteam-logo.png" alt="" />
+                <img src="./skyteam-logo.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-4-3">
-                <img src="./skyteam-bg.png" alt="" />
+                <img src="./skyteam-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./skyteam-print-1.png" alt="" />
+                <img src="./skyteam-print-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl flex">
               <div className="img-container aspect-16-9">
-                <img src="./skyteam-color-1.png" alt="" />
+                <img src="./skyteam-color-1.webp" alt="" />
               </div>
               <div className="img-container aspect-16-9">
-                <img src="./skyteam-color-2.png" alt="" />
+                <img src="./skyteam-color-2.webp" alt="" />
               </div>
             </div>
           </div>
@@ -72,12 +72,12 @@ function Skyteam() {
           <div className="grid container">
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./skyteam-print-2.png" alt="" />
+                <img src="./skyteam-print-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./skyteam-print-3.png" alt="" />
+                <img src="./skyteam-print-3.webp" alt="" />
               </div>
             </div>
           </div>

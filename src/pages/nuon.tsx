@@ -21,7 +21,7 @@ function Nuon() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-            <img src="./nuon-poster-1.jpg" alt="" />
+            <img src="./nuon-poster-1.webp" alt="" />
           </div>
         </section>
 
@@ -53,12 +53,12 @@ function Nuon() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./nuon-logo.png" alt="" />
+                <img src="./nuon-logo.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./nuon-bg.png" alt="" />
+                <img src="./nuon-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
@@ -68,10 +68,10 @@ function Nuon() {
             </div>
             <div className="col-xl flex">
               <div className="img-container aspect-16-9">
-                <img src="./nuon-color-1.png" alt="" />
+                <img src="./nuon-color-1.webp" alt="" />
               </div>
               <div className="img-container aspect-16-9">
-                <img src="./nuon-color-2.png" alt="" />
+                <img src="./nuon-color-2.webp" alt="" />
               </div>
             </div>
           </div>
@@ -91,22 +91,22 @@ function Nuon() {
           <div className="grid container">
             <div className="col-full">
               <div className="img-container aspect-16-9">
-                <img src="./nuon-ui-1.png" alt="" />
+                <img src="./nuon-ui-1.webp" alt="" />
               </div>
             </div>
             <div className="col-m">
               <div className="img-container aspect-1-1">
-                <img src="./nuon-ui-2.png" alt="" />
+                <img src="./nuon-ui-2.webp" alt="" />
               </div>
             </div>
             <div className="col-xxl">
               <div className="img-container aspect-4-3">
-                <img src="./nuon-ui-3.png" alt="" />
+                <img src="./nuon-ui-3.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9">
-                <img src="./nuon-ui-4.png" alt="" />
+                <img src="./nuon-ui-4.webp" alt="" />
               </div>
             </div>
           </div>
