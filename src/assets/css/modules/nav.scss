@@ -9,11 +9,13 @@ nav {
   transition: all 800ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
   background: rgba(5, 5, 5, 0);
   backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
 
   &.scrolled,
   &.active {
     background: var(--color-dark-4);
     backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
 
     span {
       color: var(--color-gray-1);
@@ -30,14 +32,21 @@ nav {
       color: var(--color-white);
     }
   }
+
+  @media (min-width: 768px) {
+    span {
+      font-size: $font-size-base;
+    }
+  }
 }
 
 .nav-bar {
   padding: 1rem 0;
+  align-items: baseline;
 
   @media (min-width: 768px) {
     & {
-      padding: 2rem 0;
+      padding: 1.6rem 0;
     }
   }
 }

@@ -5,13 +5,7 @@
   background-color: var(--color-dark-3);
 
   .grid {
-    grid-row-gap: $spacing-s;
-
-    @media (min-width: 1200px) {
-      & {
-        grid-row-gap: $spacing-m;
-      }
-    }
+    grid-row-gap: $spacing-m;
 
     @media (min-width: 1450px) {
       & {
@@ -57,24 +51,15 @@
 
         .work-detail-wrap {
           display: flex;
-          flex-direction: column;
           justify-content: space-between;
           align-items: flex-start;
           gap: 2rem;
-
-          button {
-            width: 100%;
-          }
 
           @media (min-width: 768px) {
             & {
               flex-direction: row;
               justify-content: space-between;
               align-items: flex-end;
-            }
-
-            button {
-              width: fit-content;
             }
           }
 
@@ -89,25 +74,14 @@
             }
 
             .work-brief {
+              position: relative;
               display: inline;
-              font-size: $font-size-base;
-              white-space: nowrap;
-              overflow: hidden;
+              font-size: $font-size-small;
               text-overflow: clip;
+              line-height: 1.4;
+              width: 100%;
             }
           }
-        }
-
-        &:hover {
-          img {
-            transform: translate(-50%, -50%) scale(1.08) !important;
-          }
-        }
-      }
-
-      &:first-child {
-        img {
-          width: 120% !important;
         }
       }
     }

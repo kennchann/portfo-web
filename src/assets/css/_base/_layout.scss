@@ -3,7 +3,7 @@
 // Grid Wrap
 .container {
   position: relative;
-  margin: 0 1.25rem;
+  margin: 0 0.8rem;
 
   @media (min-width: 768px) {
     & {
@@ -15,7 +15,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
-  row-gap: 10rem;
+  row-gap: $spacing-m;
+
+  @media (min-width: 768px) {
+    & {
+      row-gap: 10rem;
+    }
+  }
 
   @media (min-width: 1450px) {
     & {
@@ -77,6 +83,21 @@
 }
 .col-l {
   grid-column: span 4;
+
+  &.grid-end {
+    grid-column: 2 / span 3;
+    justify-self: unset;
+
+    @media (min-width: 768px) {
+      grid-column: 3 / span 2;
+    }
+
+    @media (min-width: 1450px) {
+      & {
+        grid-column: 5 / span 4;
+      }
+    }
+  }
 }
 .col-xl {
   grid-column: span 4;
@@ -137,7 +158,6 @@
     object-fit: cover;
   }
 }
-
 .aspect-16-9 {
   aspect-ratio: 16/9 !important;
 
@@ -147,7 +167,15 @@
     object-fit: cover;
   }
 }
+.aspect-9-16 {
+  aspect-ratio: 9/16 !important;
 
+  img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+  }
+}
 .aspect-4-3 {
   aspect-ratio: 4/3 !important;
 
@@ -157,6 +185,9 @@
     object-fit: cover;
   }
 }
+.aspect-4-9 {
+  aspect-ratio: 4/9 !important;
+}
 
 // Image Container
 .img-container {
@@ -164,7 +195,7 @@
   width: 100%;
   aspect-ratio: 3 / 2;
   overflow: hidden;
-  border-radius: 0.4rem;
+  background: var(--color-dark-2);
 
   img {
     position: absolute;
@@ -180,7 +211,7 @@
 
 @media (max-width: 768px) {
   .img-responsive {
-    aspect-ratio: 1 / 1 !important;
+    aspect-ratio: 6 / 5 !important;
   }
 }
 

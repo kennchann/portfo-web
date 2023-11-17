@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: $spacing-m;
+    gap: $spacing-s;
 
     .ellipse-container {
       grid-template-columns: repeat(6, 1fr);
@@ -21,6 +21,9 @@
           grid-column: 3 / -1;
         }
       }
+    }
+    @media (min-width: 768px) {
+      gap: $spacing-m;
     }
   }
 
