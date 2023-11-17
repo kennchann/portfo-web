@@ -1,5 +1,3 @@
-import Arrow from "../assets/svg/arrow.svg";
-
 function TNode() {
   return (
     <>
