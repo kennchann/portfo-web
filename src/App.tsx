@@ -23,6 +23,7 @@ function App() {
           <Route path="/skyteam" element={<Skyteam />} />
           <Route path="/cfss-gradbook" element={<GradBook />} />
           <Route path="/dogily" element={<Dogily />} />
+          <Route path="*" element={<Work />} />
         </Routes>
       <Footer />
     </BrowserRouter>
