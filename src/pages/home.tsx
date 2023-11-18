@@ -63,7 +63,7 @@ function Home() {
                     services.
                   </span>
                 </div>
-                <Link to="/culture-homes">
+                <Link to="/work/culture-homes">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
@@ -92,7 +92,7 @@ function Home() {
                     Nuon.fi is a safe and transparent DeFi protocol.
                   </span>
                 </div>
-                <Link to="/nuon">
+                <Link to="/work/nuon">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
@@ -121,7 +121,7 @@ function Home() {
                     governance hub.
                   </span>
                 </div>
-                <Link to="/trusted-node">
+                <Link to="/work/trusted-node">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
@@ -146,7 +146,7 @@ function Home() {
                     Offers a range of academic courses for secondary students.
                   </span>
                 </div>
-                <Link to="/skyteam">
+                <Link to="/work/skyteam">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
@@ -172,7 +172,7 @@ function Home() {
                     class.
                   </span>
                 </div>
-                <Link to="/cfss-gradbook">
+                <Link to="/work/cfss-gradbook">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
@@ -197,7 +197,7 @@ function Home() {
                     timeless.
                   </span>
                 </div>
-                <Link to="/dogily">
+                <Link to="/work/dogily">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>

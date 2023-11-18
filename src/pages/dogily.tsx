@@ -12,7 +12,7 @@ function Dogily() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-            <img src="./dogily-mobile-1.webp" alt="" />
+            <img src="../dogily-mobile-1.webp" alt="" />
           </div>
         </section>
 
@@ -33,22 +33,22 @@ function Dogily() {
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img src="./dogily-logo.webp" alt="" />
+                <img src="../dogily-logo.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./dogily-bg.webp" alt="" />
+                <img src="../dogily-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="./dogily-filter-1.webp" alt="" />
+                <img src="../dogily-filter-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="./dogily-filter-2.webp" alt="" />
+                <img src="../dogily-filter-2.webp" alt="" />
               </div>
             </div>
           </div>

@@ -31,12 +31,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/nuon" element={<Nuon />} />
-        <Route path="/culture-homes" element={<CultureHomes />} />
-        <Route path="/trusted-node" element={<TNode />} />
-        <Route path="/skyteam" element={<Skyteam />} />
-        <Route path="/cfss-gradbook" element={<GradBook />} />
-        <Route path="/dogily" element={<Dogily />} />
+        <Route path="/work/nuon" element={<Nuon />} />
+        <Route path="/work/culture-homes" element={<CultureHomes />} />
+        <Route path="/work/trusted-node" element={<TNode />} />
+        <Route path="/work/skyteam" element={<Skyteam />} />
+        <Route path="/work/cfss-gradbook" element={<GradBook />} />
+        <Route path="/work/dogily" element={<Dogily />} />
         <Route path="*" element={<Work />} />
       </Routes>
       <Footer />
