@@ -1,4 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -62,11 +63,11 @@ function Home() {
                     services.
                   </span>
                 </div>
-                <a href="/culture-homes">
+                <Link to="/culture-homes">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -91,11 +92,11 @@ function Home() {
                     Nuon.fi is a safe and transparent DeFi protocol.
                   </span>
                 </div>
-                <a href="/nuon">
+                <Link to="/nuon">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -120,11 +121,11 @@ function Home() {
                     governance hub.
                   </span>
                 </div>
-                <a href="/trusted-node">
+                <Link to="/trusted-node">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -145,11 +146,11 @@ function Home() {
                     Offers a range of academic courses for secondary students.
                   </span>
                 </div>
-                <a href="/skyteam">
+                <Link to="/skyteam">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -171,11 +172,11 @@ function Home() {
                     class.
                   </span>
                 </div>
-                <a href="/cfss-gradbook">
+                <Link to="/cfss-gradbook">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -196,11 +197,11 @@ function Home() {
                     timeless.
                   </span>
                 </div>
-                <a href="/dogily">
+                <Link to="/dogily">
                   <button className="arrow-btn">
                     <img className="arrow" src={Arrow} alt="Arrow" />
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
