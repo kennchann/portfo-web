@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Nav from './components/nav.tsx'
 import Footer from './components/footer.tsx'
 import Home from './pages/home';
@@ -12,7 +12,7 @@ import Dogily from './pages/dogily';
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <>
       <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path="*" element={<Work />} />
         </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 
