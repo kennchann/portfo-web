@@ -16,7 +16,8 @@ function ScrollToTopOnRouteChange() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    const element = document.documentElement || document.body;
+    element.scrollTo({ top: 0, behavior: 'instant' });
   }, [pathname]);
 
   return null;
