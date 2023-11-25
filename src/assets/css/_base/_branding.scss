@@ -21,14 +21,10 @@ $font-weight-body: 400;
 
 /* Base Font Sizes
 --------------------------------------------*/
-$font-size-base: 14px;
+$font-size-base: 16px;
 $font-size-body: calc(18px / $font-size-base) + rem;
-$font-size-large: calc(28px / $font-size-base) + rem;
+$font-size-large: calc(26px / $font-size-base) + rem;
 $font-size-small: calc(14px / $font-size-base) + rem;
-
-@media (min-width: 768px) {
-  $font-size-base: 16px;
-}
 
 // Spacing
 $spacing-s: 2.5rem;
