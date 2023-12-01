@@ -1,10 +1,10 @@
 :root {
   // Colors - Text
-  --color-text: #bebebe;
+  --color-text: #989898;
 
   // Colors - Dark
   --color-dark-1: #050505;
-  --color-dark-2: rgba(255, 255, 255, 0.05);
+  --color-dark-2: rgba(255, 255, 255, 0.1);
   --color-dark-3: #0b0b0b;
   --color-dark-4: rgba(5, 5, 5, 0.6);
 
@@ -24,7 +24,7 @@ $font-weight-body: 400;
 $font-size-base: 16px;
 $font-size-body: calc(18px / $font-size-base) + rem;
 $font-size-large: calc(28px / $font-size-base) + rem;
-$font-size-small: calc(14px / $font-size-base) + rem;
+$font-size-small: calc(13px / $font-size-base) + rem;
 
 // Spacing
 $spacing-s: 2.5rem;

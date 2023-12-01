@@ -1,5 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function Nuon() {
   const navigate = useNavigate();
@@ -24,11 +24,12 @@ function Nuon() {
                   </button>
                 </div>
                 <div className="grid-end prj-btn-wrap btn-blue">
-                    <a href="https://nuon.fi/" target="_blank">
-                  <button className="prj-btn">
-                    <h2>Live Site</h2>
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button></a>
+                  <a href="https://nuon.fi/" target="_blank">
+                    <button className="prj-btn">
+                      <h2>Live Site</h2>
+                      <img className="arrow" src={Arrow} alt="Arrow" />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -38,17 +39,12 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="highlight list-item">Branding</span>
-              <span className="highlight list-item">Web Design</span>
-              <span className="highlight list-item">UI/ UX Design</span>
-              <span className="highlight list-item">Graphic Design</span>
-              <span className="highlight list-item">Web Development</span>
-              <span className="highlight list-item">Digital Products</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
                 Nuon.fi is a safe and transparent DeFi protocol where users can
                 mint Nuon flatcoins to hedge against inflation and take
@@ -58,6 +54,27 @@ function Nuon() {
                 equality via pluralism, natural hierarchy, leading edge of
                 consciousness, and multiple perspectives of community.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Capabilities</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+              <p className="list-item">Capabilities</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Branding</p>
+                <p className="list-item">Web Design</p>
+                <p className="list-item">UI/ UX Design</p>
+                <p className="list-item">Graphic Design</p>
+                <p className="list-item">Web Development</p>
+                <p className="list-item">Digital Products</p>
+              </div>
             </div>
           </div>
         </section>
@@ -94,7 +111,10 @@ function Nuon() {
           <div className="grid container">
             <div className="col-xl">
               <p>
-                The design direction is modern, sophisticated, and memorable, with a focus on natural hierarchy, multiple perspectives of community, and leading edge technology. Responsive UI design is also built for different devices for user friendliness.
+                The design direction is modern, sophisticated, and memorable,
+                with a focus on natural hierarchy, multiple perspectives of
+                community, and leading edge technology. Responsive UI design is
+                also built for different devices for user friendliness.
               </p>
             </div>
           </div>

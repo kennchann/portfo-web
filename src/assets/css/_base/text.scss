@@ -25,10 +25,6 @@ p {
   margin-bottom: 1rem;
   line-height: 1.2;
   color: var(--color-text);
-
-  @media (min-width: 768px) {
-    font-size: $font-size-large;
-  }
 }
 
 p.lead {
@@ -80,6 +76,7 @@ h2 {
   text-transform: none;
   text-align: left;
   line-height: 1.8;
+  letter-spacing: 0.02rem;
 }
 .coming-soon {
   position: relative;

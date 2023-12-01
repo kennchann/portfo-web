@@ -14,7 +14,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   row-gap: $spacing-m;
 
   @media (min-width: 768px) {
@@ -130,6 +130,21 @@
 .col-full {
   grid-column: 1 / -1;
 }
+.grid-col {
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-dark-2);
+
+  &.col-xl {
+    padding-top: 0;
+    border-top: 0;
+  }
+  @media (min-width: 560px) {
+    &.col-xl {
+      padding-top: 1rem;
+      border-top: 1px solid var(--color-dark-2);
+    }
+  }
+}
 .grid-end {
   grid-column: 4;
   justify-self: end;
@@ -146,6 +161,7 @@
   display: flex;
   position: relative;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 // Aspect Ratio
