@@ -1,6 +1,13 @@
 import Arrow from "../assets/svg/arrow.svg";
+import { useNavigate } from 'react-router-dom';
 
 function CultureHomes() {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1);
+  };
+
   return (
     <>
       <div className="project wrap">
@@ -10,12 +17,19 @@ function CultureHomes() {
               <div className="prj-info">
                 <h1 className="prj-name">Culture Homes</h1>
                 <h2 className="prj-yr">©2019</h2>
-                <div className="grid-end prj-btn-wrap">
-                    <a href="https://culturehomes.com.hk/" target="_blank">
-                  <button className="prj-btn">
-                    <h2>Live Site</h2>
+                <div className="grid-end prj-btn-wrap back">
+                  <button className="prj-btn" onClick={handleBack}>
                     <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button></a>
+                    <h2>Back</h2>
+                  </button>
+                </div>
+                <div className="grid-end prj-btn-wrap btn-blue">
+                  <a href="https://culturehomes.com.hk/" target="_blank">
+                    <button className="prj-btn">
+                      <h2>Live Site</h2>
+                      <img className="arrow" src={Arrow} alt="Arrow" />
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

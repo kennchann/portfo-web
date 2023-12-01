@@ -1,4 +1,13 @@
+import Arrow from "../assets/svg/arrow.svg";
+import { useNavigate } from 'react-router-dom';
+
 function TNode() {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1);
+  };
+  
   return (
     <>
       <div className="project wrap">
@@ -8,6 +17,12 @@ function TNode() {
               <div className="prj-info">
                 <h1 className="prj-name">Trusted Node</h1>
                 <h2 className="prj-yr">©2022</h2>
+                <div className="grid-end prj-btn-wrap back">
+                  <button className="prj-btn" onClick={handleBack}>
+                    <img className="arrow" src={Arrow} alt="Arrow" />
+                    <h2>Back</h2>
+                  </button>
+                </div>
               </div>
             </div>
           </div>

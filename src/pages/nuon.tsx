@@ -1,6 +1,13 @@
 import Arrow from "../assets/svg/arrow.svg";
+import { useNavigate } from 'react-router-dom';
 
 function Nuon() {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1);
+  };
+
   return (
     <>
       <div className="project wrap">
@@ -10,7 +17,13 @@ function Nuon() {
               <div className="prj-info">
                 <h1 className="prj-name">Nuon Finance</h1>
                 <h2 className="prj-yr">©2022</h2>
-                <div className="grid-end prj-btn-wrap">
+                <div className="grid-end prj-btn-wrap back">
+                  <button className="prj-btn" onClick={handleBack}>
+                    <img className="arrow" src={Arrow} alt="Arrow" />
+                    <h2>Back</h2>
+                  </button>
+                </div>
+                <div className="grid-end prj-btn-wrap btn-blue">
                     <a href="https://nuon.fi/" target="_blank">
                   <button className="prj-btn">
                     <h2>Live Site</h2>
