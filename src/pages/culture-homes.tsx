@@ -1,5 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function CultureHomes() {
   const navigate = useNavigate();
@@ -39,16 +39,55 @@ function CultureHomes() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="highlight list-item">Web Design</span>
-              <span className="highlight list-item">UI/ UX Design</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
-              Culture Homes is a Hong Kong based end-to-end integrated solution provider for elderly care and services. The goal is to reflect the business's vision of providing elderly care and rehabilitation services that promote a youthful and energetic lifestyle. The design should also convey a sense of hope and possibility and inspire visitors to explore the services Culture Homes offers to improve the quality of life for seniors.
+                Culture Homes is a Hong Kong based end-to-end integrated
+                solution provider for elderly care and services. The goal is to
+                reflect the business's vision of providing elderly care and
+                rehabilitation services that promote a youthful and energetic
+                lifestyle. The design should also convey a sense of hope and
+                possibility and inspire visitors to explore the services Culture
+                Homes offers to improve the quality of life for seniors.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Culture Homes</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Ecommerce</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Capabilities</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Web Design</p>
+                <p className="list-item">UI/ UX Design</p>
+                <p className="list-item">Graphic Design</p>
+              </div>
             </div>
           </div>
         </section>
@@ -85,7 +124,11 @@ function CultureHomes() {
           <div className="grid container">
             <div className="col-xl">
               <p>
-              The design should also incorporate elements that symbolize growth, possibility, and new beginnings, such as sprouts, flowers, and butterflies. The use of playful graphics and animations can add an element of fun and excitement to the website, making it more engaging for visitors of all ages. 
+                The design should also incorporate elements that symbolize
+                growth, possibility, and new beginnings, such as sprouts,
+                flowers, and butterflies. The use of playful graphics and
+                animations can add an element of fun and excitement to the
+                website, making it more engaging for visitors of all ages.
               </p>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function Skyteam() {
   const navigate = useNavigate();
@@ -31,16 +31,53 @@ function Skyteam() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="list-item">Branding</span>
-              <span className="list-item">Graphic Design</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
-              Established in 2013, Skyteam Education Centre offers a range of academic courses and programs to help secondary students improve their academic performance. The overall aim is to create a welcoming and engaging learning environment for secondary students while reflecting the center's commitment to academic excellence and personal growth.
+                Established in 2013, Skyteam Education Centre offers a range of
+                academic courses and programs to help secondary students improve
+                their academic performance. The overall aim is to create a
+                welcoming and engaging learning environment for secondary
+                students while reflecting the center's commitment to academic
+                excellence and personal growth.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Skyteam Education Centre</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Commercial</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Contribution</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Branding</p>
+                <p className="list-item">Graphic Design</p>
+              </div>
             </div>
           </div>
         </section>
@@ -77,7 +114,11 @@ function Skyteam() {
           <div className="grid container">
             <div className="col-xl">
               <p>
-              The design direction for Skyteam Education Centre is professional and approachable, incorporating natural textures and warm earthy colors such as sandrift and light apricot. The color scheme also includes shades of grey-blue and white rock, with pops of Casal blue to add freshness.
+                The design direction for Skyteam Education Centre is
+                professional and approachable, incorporating natural textures
+                and warm earthy colors such as sandrift and light apricot. The
+                color scheme also includes shades of grey-blue and white rock,
+                with pops of Casal blue to add freshness.
               </p>
             </div>
           </div>

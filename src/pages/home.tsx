@@ -1,10 +1,9 @@
-import Arrow from "../assets/svg/arrow.svg";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <>
-      <section className="hero wrap">
+      <section className="hero wrap page-wrap">
         <div className="grid container">
           <div className="col-s list">
             <span className="highlight list-item">Web Design</span>
@@ -49,12 +48,15 @@ function Home() {
         <div className="grid container">
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Web Design</span>
+              <span className="list-item">Project 01</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link
+                to="/work/culture-homes"
+                className="img-container img-responsive"
+              >
                 <img src="./culture-web-1.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">Culture Homes</h2>
@@ -63,28 +65,18 @@ function Home() {
                     services.
                   </span>
                 </div>
-                <Link to="/work/culture-homes">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Branding</span>
-              <span className="list-item">UI/ UX Design</span>
-              <span className="list-item">Web Design</span>
-              <span className="list-item">Graphic Design</span>
-              <span className="list-item">Web Development</span>
-              <span className="list-item">Digital Products</span>
+              <span className="list-item">Project 02</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link to="/work/nuon" className="img-container img-responsive">
                 <img src="./nuon-poster-1.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">Nuon Finance</h2>
@@ -92,27 +84,21 @@ function Home() {
                     Nuon.fi is a safe and transparent DeFi protocol.
                   </span>
                 </div>
-                <Link to="/work/nuon">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Branding</span>
-              <span className="list-item">UI/ UX Design</span>
-              <span className="list-item">Web Design</span>
-              <span className="list-item">Graphic Design</span>
-              <span className="list-item">Digital Products</span>
+              <span className="list-item">Project 03</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link
+                to="/work/trusted-node"
+                className="img-container img-responsive"
+              >
                 <img src="./tnode-poster-1.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">Trusted Node</h2>
@@ -121,24 +107,18 @@ function Home() {
                     governance hub.
                   </span>
                 </div>
-                <Link to="/work/trusted-node">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Branding</span>
-              <span className="list-item">Graphic Design</span>
+              <span className="list-item">Project 04</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link to="/work/skyteam" className="img-container img-responsive">
                 <img src="./skyteam-poster.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">Skyteam Education</h2>
@@ -146,24 +126,21 @@ function Home() {
                     Offers a range of academic courses for secondary students.
                   </span>
                 </div>
-                <Link to="/work/skyteam">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Graphic Design</span>
-              <span className="list-item">Art Direction</span>
+              <span className="list-item">Project 05</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link
+                to="/work/cfss-gradbook"
+                className="img-container img-responsive"
+              >
                 <img src="./cfss-book-1.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">CFSS Gradbook</h2>
@@ -172,23 +149,18 @@ function Home() {
                     class.
                   </span>
                 </div>
-                <Link to="/work/cfss-gradbook">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">AR Filter</span>
+              <span className="list-item">Project 06</span>
             </div>
             <div className="work-wrap">
-              <div className="img-container img-responsive">
+              <Link to="/work/dogily" className="img-container img-responsive">
                 <img src="./dogily-mobile-1.webp" alt="" />
-              </div>
+              </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
                   <h2 className="work-title">Dogily Official</h2>
@@ -197,11 +169,6 @@ function Home() {
                     timeless.
                   </span>
                 </div>
-                <Link to="/work/dogily">
-                  <button className="arrow-btn">
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                  </button>
-                </Link>
               </div>
             </div>
           </div>

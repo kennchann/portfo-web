@@ -1,5 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function TNode() {
   const navigate = useNavigate();
@@ -7,7 +7,7 @@ function TNode() {
   const handleBack = () => {
     navigate(-1);
   };
-  
+
   return (
     <>
       <div className="project wrap">
@@ -31,19 +31,58 @@ function TNode() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="list-item">Branding</span>
-              <span className="list-item">UI/ UX Design</span>
-              <span className="list-item">Web Design</span>
-              <span className="list-item">Graphic Design</span>
-              <span className="list-item">Digital Products</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
-              Trusted Node is a decentralized, non-custodial validator service and governance hub enabling users to participate in PoS blockchain rewards and governance without the need to personally operate the validator nodes. The design of Trusted Node should reflect the brand's core values of trust, reliability, and user-friendliness. The brand should have a modern, sleek, and professional look, while also feeling approachable and engaging. The design should align with the brand's mission to improve the safety, usability, and resilience of the PoS ecosystems.
+                Trusted Node is a decentralized, non-custodial validator service
+                and governance hub enabling users to participate in PoS
+                blockchain rewards and governance without the need to personally
+                operate the validator nodes. The design of Trusted Node should
+                reflect the brand's core values of trust, reliability, and
+                user-friendliness. The brand should have a modern, sleek, and
+                professional look, while also feeling approachable and engaging.
+                The design should align with the brand's mission to improve the
+                safety, usability, and resilience of the PoS ecosystems.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Laguna Labs</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Digital Products</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Capabilities</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Branding</p>
+                <p className="list-item">Web Design</p>
+                <p className="list-item">UI/ UX Design</p>
+                <p className="list-item">Graphic Design</p>
+              </div>
             </div>
           </div>
         </section>
@@ -80,7 +119,15 @@ function TNode() {
           <div className="grid container">
             <div className="col-xl">
               <p>
-              The TNODE logo is designed to convey a sense of trustworthiness and reliability through its square frame, while also exuding user-friendliness and excitement with the vibrant orange stadium. The logo comes in three versions, each representing the brand's strong values and commitment to excellence. The token/coin icon symbolizes the brand's core values and everything we stand for, making it instantly recognizable and memorable to the audience. Overall, the TNODE logo is a powerful visual representation of the brand's identity and mission.
+                The TNODE logo is designed to convey a sense of trustworthiness
+                and reliability through its square frame, while also exuding
+                user-friendliness and excitement with the vibrant orange
+                stadium. The logo comes in three versions, each representing the
+                brand's strong values and commitment to excellence. The
+                token/coin icon symbolizes the brand's core values and
+                everything we stand for, making it instantly recognizable and
+                memorable to the audience. Overall, the TNODE logo is a powerful
+                visual representation of the brand's identity and mission.
               </p>
             </div>
           </div>

@@ -61,7 +61,23 @@ function Nuon() {
         <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
-              <span className="highlight list-item">Capabilities</span>
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+              <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Laguna Labs</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+              <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Digital Products</p>
+              </div>
             </div>
             <div className="grid-col col-xl prj-list">
               <div className="col-s list">
@@ -73,7 +89,6 @@ function Nuon() {
                 <p className="list-item">UI/ UX Design</p>
                 <p className="list-item">Graphic Design</p>
                 <p className="list-item">Web Development</p>
-                <p className="list-item">Digital Products</p>
               </div>
             </div>
           </div>

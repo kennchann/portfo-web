@@ -15,7 +15,7 @@ function Dogily() {
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
-                <h1 className="prj-name">Dogily Official</h1>
+                <h1 className="prj-name">Dogily</h1>
                 <h2 className="prj-yr">©2022</h2>
                 <div className="grid-end prj-btn-wrap back">
                   <button className="prj-btn" onClick={handleBack}>
@@ -31,15 +31,49 @@ function Dogily() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="list-item">AR Filter</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
               Dogily is committed to sourcing the finest textiles and creating pet-human matchy accessories that are chic yet timeless. The AR filter showcases their Collin Square Scarf with 3D movements and makeup effects for users, which is also engaging and playful, allowing users to experiment with different looks and share their experiences with their followers. The filter aligns with Dogily's commitment to timeless and chic designs and provide a unique and memorable experience for users.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Dogily</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Commercial</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Capabilities</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">AR Filter</p>
+                <p className="list-item">3D Modelling</p>
+              </div>
             </div>
           </div>
         </section>

@@ -1,5 +1,5 @@
 import Arrow from "../assets/svg/arrow.svg";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 function GradBook() {
   const navigate = useNavigate();
@@ -31,16 +31,53 @@ function GradBook() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
-            <div className="col-s list">
-              <span className="list-item">Graphic Design</span>
-              <span className="list-item">Art Direction</span>
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Summary</span>
             </div>
-            <div className="col-xl">
+            <div className="grid-col col-xl">
               <p>
-              The CFSS Class of 2020 Graduation Book will feature a bold and memorable design that captures the spirit and accomplishments of the graduating class. The design will incorporate vibrant colors, unique typography, and innovative layouts to create a visually stunning publication that celebrates the achievements and memories of this special group of students.
+                The CFSS Class of 2020 Graduation Book will feature a bold and
+                memorable design that captures the spirit and accomplishments of
+                the graduating class. The design will incorporate vibrant
+                colors, unique typography, and innovative layouts to create a
+                visually stunning publication that celebrates the achievements
+                and memories of this special group of students.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="excerpt wrap prj-excerpt">
+          <div className="grid container">
+            <div className="grid-col col-s list">
+              <span className="highlight list-item">Project Info</span>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Client</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">CFSS Class of 2020</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Type</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Publication</p>
+              </div>
+            </div>
+            <div className="grid-col col-xl prj-list">
+              <div className="col-s list">
+                <p className="list-item">Capabilities</p>
+              </div>
+              <div className="col-xl list">
+                <p className="list-item">Art Direction</p>
+                <p className="list-item">Graphic Design</p>
+              </div>
             </div>
           </div>
         </section>
