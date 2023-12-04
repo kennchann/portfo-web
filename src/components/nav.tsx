@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect, useRef, MouseEvent } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 function Nav(): JSX.Element {
   const [isMenuToggled, setMenuToggled] = useState(false);
@@ -10,23 +10,23 @@ function Nav(): JSX.Element {
     setMenuToggled(!isMenuToggled);
   };
 
-  const handleClickOutside = (event: MouseEvent<Document>): void => {
-    if (navRef.current && !navRef.current.contains(event.target as Node)) {
-      setMenuToggled(false);
-    }
-  };
-
   useEffect(() => {
+    const handleClickOutside = (event: MouseEvent): void => {
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setMenuToggled(false);
+      }
+    };
+
     const handleScroll = (): void => {
       setScrolled(window.scrollY > 0);
     };
 
     window.addEventListener('scroll', handleScroll);
-    document.addEventListener('mousedown', handleClickOutside);
+    window.addEventListener('mousedown', handleClickOutside);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
