@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import '../assets/css/modules/footer.scss'
 
 function Footer() {
@@ -8,7 +9,7 @@ function Footer() {
           <span className='col-s'>©2023 Kenneth Chan. All rights reserved</span>
           <div className='list col-xs'>
             <a href='/' className="list-item"><span>Home</span></a>
-            <a className="list-item coming-soon"><span>Work</span></a>
+            <Link to="/work" className="list-item"><span>Work</span></Link>
             <a className="list-item coming-soon"><span>About</span></a>
             <a className="list-item coming-soon"><span>Contact</span></a>
           </div>

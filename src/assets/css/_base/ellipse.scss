@@ -23,3 +23,14 @@
     }
   }
 }
+.ellipse-container.ellipse-mid {
+  grid-template-columns: repeat(4, 1fr);
+
+  .ellipse-wrap {
+    grid-column: 1 / 3;
+
+    &:last-child {
+      grid-column: 2 / -2;
+    }
+  }
+}
