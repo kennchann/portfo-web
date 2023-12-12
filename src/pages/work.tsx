@@ -19,7 +19,7 @@ function Work() {
               to="/work/culture-homes"
               className="img-container img-responsive"
             >
-              <img src="./culture-web-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -39,7 +39,7 @@ function Work() {
           </div>
           <div className="work-wrap">
             <Link to="/work/nuon" className="img-container img-responsive">
-              <img src="./nuon-poster-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -61,7 +61,7 @@ function Work() {
               to="/work/trusted-node"
               className="img-container img-responsive"
             >
-              <img src="./tnode-poster-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./tnode-poster-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -81,7 +81,7 @@ function Work() {
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
-              <img src="./skyteam-poster.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./skyteam-poster.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -103,7 +103,7 @@ function Work() {
               to="/work/cfss-gradbook"
               className="img-container img-responsive"
             >
-              <img src="./cfss-book-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./cfss-book-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -123,7 +123,7 @@ function Work() {
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">
-              <img src="./dogily-mobile-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./dogily-mobile-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">

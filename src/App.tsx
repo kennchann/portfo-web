@@ -1,35 +1,41 @@
-import { useEffect, useRef, useState } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
-import Nav from './components/nav';
-import Footer from './components/footer';
+import { useEffect, useRef, useState } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Nav from "./components/nav";
+import Footer from "./components/footer";
 
-import Home from './pages/home';
-import Work from './pages/work';
-import Nuon from './pages/nuon';
-import CultureHomes from './pages/culture-homes';
-import TNode from './pages/tnode';
-import Skyteam from './pages/skyteam';
-import GradBook from './pages/cfss-gradbook';
-import Dogily from './pages/dogily';
+import Home from "./pages/home";
+import Work from "./pages/work";
+import Nuon from "./pages/nuon";
+import CultureHomes from "./pages/culture-homes";
+import TNode from "./pages/tnode";
+import Skyteam from "./pages/skyteam";
+import GradBook from "./pages/cfss-gradbook";
+import Dogily from "./pages/dogily";
 
-import locomotiveScroll from 'locomotive-scroll'
+import locomotiveScroll from "locomotive-scroll";
 
 function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
-  const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(null);
+  const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(
+    null
+  );
 
   useEffect(() => {
     const scrollOptions: LocomotiveScroll.InstanceOptions = {
       el: scrollRef.current!,
       smooth: true,
+      lerp: 0.1,
+      multiplier: 1.4,
       reloadOnContextChange: true,
+      touchMultiplier: 2.5,
+
       smartphone: {
         smooth: true,
       },
       tablet: {
-        smooth: true,
-        breakpoint: 768
+        smooth: false,
+        breakpoint: 1024,
       },
     };
 

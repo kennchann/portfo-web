@@ -35,7 +35,7 @@ function Nuon() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-            <img src="../nuon-poster-1.webp" alt="" />
+          <img data-scroll data-scroll-speed="-3" src="../nuon-poster-1.webp" alt="" />
           </div>
         </section>
 
@@ -103,12 +103,12 @@ function Nuon() {
             </div>
             <div data-scroll className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="../nuon-bg.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-bg.webp" alt="" />
               </div>
             </div>
             <div data-scroll className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="../nuon-web-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-web-1.webp" alt="" />
               </div>
             </div>
             <div data-scroll className="col-xl flex">
@@ -139,22 +139,22 @@ function Nuon() {
           <div className="grid container">
             <div data-scroll className="col-full">
               <div className="img-container aspect-16-9">
-                <img src="../nuon-ui-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-ui-1.webp" alt="" />
               </div>
             </div>
             <div data-scroll className="col-m">
               <div className="img-container aspect-1-1">
-                <img src="../nuon-ui-2.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-ui-2.webp" alt="" />
               </div>
             </div>
             <div data-scroll className="col-xxl">
               <div className="img-container aspect-4-3">
-                <img src="../nuon-ui-3.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-ui-3.webp" alt="" />
               </div>
             </div>
             <div data-scroll className="col-full">
               <div className="img-container aspect-16-9">
-                <img src="../nuon-ui-4.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../nuon-ui-4.webp" alt="" />
               </div>
             </div>
           </div>

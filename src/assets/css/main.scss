@@ -51,10 +51,8 @@ a {
   letter-spacing: -0.02em;
   width: fit-content;
 
-  &:hover {
-    span {
-      color: var(--color-white);
-    }
+  span:hover {
+    color: var(--color-white);
   }
 }
 

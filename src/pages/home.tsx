@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
 function Home() {
-
   return (
     <>
       <section data-scroll-section className="hero wrap page-wrap">
@@ -40,9 +39,9 @@ function Home() {
               marketing design make him an invaluable asset to any team looking
               to create compelling digital experiences.
             </p>
-              <button data-scroll className="prj-btn">
-                <h3>Coming Soon</h3>
-              </button>
+            <button data-scroll className="prj-btn">
+              <h3>Coming Soon</h3>
+            </button>
           </div>
         </div>
       </section>
@@ -58,7 +57,7 @@ function Home() {
                 to="/work/culture-homes"
                 className="img-container img-responsive"
               >
-                <img src="./culture-web-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
@@ -78,7 +77,7 @@ function Home() {
             </div>
             <div data-scroll className="work-wrap">
               <Link to="/work/nuon" className="img-container img-responsive">
-                <img src="./nuon-poster-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
@@ -100,7 +99,7 @@ function Home() {
                 to="/work/trusted-node"
                 className="img-container img-responsive"
               >
-                <img src="./tnode-poster-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="./tnode-poster-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">

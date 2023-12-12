@@ -27,7 +27,7 @@ function TNode() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-            <img src="../tnode-poster-1.webp" alt="" />
+          <img data-scroll data-scroll-speed="-3" src="../tnode-poster-1.webp" alt="" />
           </div>
         </section>
 
@@ -96,12 +96,12 @@ function TNode() {
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img src="../tnode-bg.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../tnode-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img src="../tnode-ui-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../tnode-ui-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl flex">
@@ -137,12 +137,12 @@ function TNode() {
           <div className="grid container">
             <div className="col-full">
               <div className="img-container aspect-16-9">
-                <img src="../tnode-ui-2.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../tnode-ui-2.webp" alt="" />
               </div>
             </div>
             <div className="col-l grid-end">
               <div className="img-container aspect-4-3">
-                <img src="../tnode-ui-3.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../tnode-ui-3.webp" alt="" />
               </div>
             </div>
           </div>
