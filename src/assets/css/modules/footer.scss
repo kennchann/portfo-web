@@ -5,6 +5,7 @@ footer {
   bottom: 0;
   padding: $spacing-s 0 $spacing-m 0;
   border-top: 1px solid var(--color-dark-2);
+  z-index: 10;
 
   .grid {
     align-items: flex-start;

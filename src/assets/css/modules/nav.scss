@@ -40,6 +40,17 @@ nav {
   }
 }
 
+html.has-scroll-scrolling {
+  nav {
+    background: var(--color-dark-4);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+    span {
+      color: var(--color-gray-1);
+    }
+  }
+}
 .nav-bar {
   padding: 1rem 0;
   align-items: baseline;

@@ -6,10 +6,10 @@ function Work() {
     <section className="work page-wrap">
       <div className="grid container">
         <div className="hero-content col-s grid-end section-title">
-          <h1>Work Showcase</h1>
+          <h1 data-scroll-section>Work Showcase</h1>
         </div>
       </div>
-      <div className="grid container">
+      <div data-scroll-section className="grid container">
         <div className="work-item">
           <div className="list col-xs">
             <span className="list-item">Project 01</span>

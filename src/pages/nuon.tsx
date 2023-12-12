@@ -10,27 +10,27 @@ function Nuon() {
 
   return (
     <>
+    <div className="prj-btn-wrap btn-fixed back">
+      <button className="prj-btn" onClick={handleBack}>
+        <img className="arrow" src={Arrow} alt="Arrow" />
+        <h2>Back</h2>
+      </button>
+    </div>
+    <div className="prj-btn-wrap btn-fixed btn-blue">
+      <a href="https://nuon.fi/" target="_blank">
+        <button className="prj-btn">
+          <h2>Live Site</h2>
+          <img className="arrow" src={Arrow} alt="Arrow" />
+        </button>
+      </a>
+    </div>
       <div className="project wrap">
-        <section className="prj-hero">
+        <section data-scroll-section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
                 <h1 className="prj-name">Nuon Finance</h1>
                 <h2 className="prj-yr">©2022</h2>
-                <div className="grid-end prj-btn-wrap back">
-                  <button className="prj-btn" onClick={handleBack}>
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                    <h2>Back</h2>
-                  </button>
-                </div>
-                <div className="grid-end prj-btn-wrap btn-blue">
-                  <a href="https://nuon.fi/" target="_blank">
-                    <button className="prj-btn">
-                      <h2>Live Site</h2>
-                      <img className="arrow" src={Arrow} alt="Arrow" />
-                    </button>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="excerpt wrap prj-excerpt">
+        <section data-scroll-section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Summary</span>
@@ -58,7 +58,7 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="excerpt wrap prj-excerpt">
+        <section data-scroll-section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Info</span>
@@ -94,24 +94,24 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="preview wrap">
+        <section data-scroll-section className="preview wrap">
           <div className="grid container">
-            <div className="col-s">
+            <div data-scroll className="col-s">
               <div className="img-container aspect-1-1">
                 <img src="../nuon-logo.webp" alt="" />
               </div>
             </div>
-            <div className="col-xl">
+            <div data-scroll className="col-xl">
               <div className="img-container aspect-16-9">
                 <img src="../nuon-bg.webp" alt="" />
               </div>
             </div>
-            <div className="col-full">
+            <div data-scroll className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
                 <img src="../nuon-web-1.webp" alt="" />
               </div>
             </div>
-            <div className="col-xl flex">
+            <div data-scroll className="col-xl flex">
               <div className="img-container aspect-16-9">
                 <img src="../nuon-color-1.webp" alt="" />
               </div>
@@ -122,9 +122,9 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="excerpt wrap">
+        <section data-scroll-section className="excerpt wrap">
           <div className="grid container">
-            <div className="col-xl">
+            <div data-scroll className="col-xl">
               <p>
                 The design direction is modern, sophisticated, and memorable,
                 with a focus on natural hierarchy, multiple perspectives of
@@ -135,24 +135,24 @@ function Nuon() {
           </div>
         </section>
 
-        <section className="preview wrap">
+        <section data-scroll-section className="preview wrap">
           <div className="grid container">
-            <div className="col-full">
+            <div data-scroll className="col-full">
               <div className="img-container aspect-16-9">
                 <img src="../nuon-ui-1.webp" alt="" />
               </div>
             </div>
-            <div className="col-m">
+            <div data-scroll className="col-m">
               <div className="img-container aspect-1-1">
                 <img src="../nuon-ui-2.webp" alt="" />
               </div>
             </div>
-            <div className="col-xxl">
+            <div data-scroll className="col-xxl">
               <div className="img-container aspect-4-3">
                 <img src="../nuon-ui-3.webp" alt="" />
               </div>
             </div>
-            <div className="col-full">
+            <div data-scroll className="col-full">
               <div className="img-container aspect-16-9">
                 <img src="../nuon-ui-4.webp" alt="" />
               </div>

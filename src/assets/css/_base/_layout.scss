@@ -52,7 +52,10 @@
     }
   }
 }
-
+.scroll-container {
+  height: 100%;
+  overflow: hidden;
+}
 // Grid Column
 .col-xs {
   grid-column: span 1;
@@ -216,7 +219,7 @@
 .img-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 5 / 3;
   overflow: hidden;
   background: var(--color-dark-2);
   &:hover {

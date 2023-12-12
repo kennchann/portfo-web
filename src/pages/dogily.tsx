@@ -10,19 +10,19 @@ function Dogily() {
 
   return (
     <>
-      <div className="project wrap">
-        <section className="prj-hero">
+    <div className="prj-btn-wrap btn-fixed back">
+      <button className="prj-btn" onClick={handleBack}>
+        <img className="arrow" src={Arrow} alt="Arrow" />
+        <h2>Back</h2>
+      </button>
+    </div>
+      <div data-scroll-section className="project wrap">
+        <section data-scroll className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
                 <h1 className="prj-name">Dogily</h1>
                 <h2 className="prj-yr">©2022</h2>
-                <div className="grid-end prj-btn-wrap back">
-                  <button className="prj-btn" onClick={handleBack}>
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                    <h2>Back</h2>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ function Dogily() {
         </section>
 
         
-        <section className="excerpt wrap prj-excerpt">
+        <section data-scroll className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Summary</span>
@@ -45,7 +45,7 @@ function Dogily() {
           </div>
         </section>
 
-        <section className="excerpt wrap prj-excerpt">
+        <section data-scroll className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Info</span>
@@ -78,7 +78,7 @@ function Dogily() {
           </div>
         </section>
 
-        <section className="preview wrap">
+        <section data-scroll className="preview wrap">
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">

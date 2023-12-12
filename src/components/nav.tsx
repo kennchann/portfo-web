@@ -1,37 +1,16 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 
 function Nav(): JSX.Element {
   const [isMenuToggled, setMenuToggled] = useState(false);
-  const [isScrolled, setScrolled] = useState(false);
   const navRef = useRef<HTMLDivElement | null>(null);
 
   const toggleMenu = (): void => {
     setMenuToggled(!isMenuToggled);
   };
 
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent): void => {
-      if (navRef.current && !navRef.current.contains(event.target as Node)) {
-        setMenuToggled(false);
-      }
-    };
-
-    const handleScroll = (): void => {
-      setScrolled(window.scrollY > 0);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('mousedown', handleClickOutside);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('mousedown', handleClickOutside);
-    };
-  }, []);
-
   return (
-    <nav ref={navRef} className={`nav ${isMenuToggled ? 'active' : ''} ${isScrolled ? 'scrolled' : ''}`}>
+    <nav ref={navRef} className={`nav ${isMenuToggled ? 'active' : ''}`}>
       <div className="nav-bar grid container">
         <a href='/' className='col-s'><span>Kenneth Chan</span></a>
         <span className='col-s menu-toggle' onClick={toggleMenu}>

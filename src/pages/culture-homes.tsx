@@ -10,27 +10,27 @@ function CultureHomes() {
 
   return (
     <>
-      <div className="project wrap">
+    <div className="prj-btn-wrap btn-fixed back">
+      <button className="prj-btn" onClick={handleBack}>
+        <img className="arrow" src={Arrow} alt="Arrow" />
+        <h2>Back</h2>
+      </button>
+    </div>
+    <div className="prj-btn-wrap btn-fixed btn-blue">
+      <a href="https://culturehomes.com.hk/" target="_blank">
+        <button className="prj-btn">
+          <h2>Live Site</h2>
+          <img className="arrow" src={Arrow} alt="Arrow" />
+        </button>
+      </a>
+    </div>
+      <div data-scroll-section className="project wrap">
         <section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
                 <h1 className="prj-name">Culture Homes</h1>
                 <h2 className="prj-yr">©2019</h2>
-                <div className="grid-end prj-btn-wrap back">
-                  <button className="prj-btn" onClick={handleBack}>
-                    <img className="arrow" src={Arrow} alt="Arrow" />
-                    <h2>Back</h2>
-                  </button>
-                </div>
-                <div className="grid-end prj-btn-wrap btn-blue">
-                  <a href="https://culturehomes.com.hk/" target="_blank">
-                    <button className="prj-btn">
-                      <h2>Live Site</h2>
-                      <img className="arrow" src={Arrow} alt="Arrow" />
-                    </button>
-                  </a>
-                </div>
               </div>
             </div>
           </div>

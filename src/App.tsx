@@ -1,7 +1,7 @@
+import { useEffect, useRef, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
-import Nav from './components/nav.tsx';
-import Footer from './components/footer.tsx';
+import Nav from './components/nav';
+import Footer from './components/footer';
 
 import Home from './pages/home';
 import Work from './pages/work';
@@ -12,34 +12,50 @@ import Skyteam from './pages/skyteam';
 import GradBook from './pages/cfss-gradbook';
 import Dogily from './pages/dogily';
 
-function ScrollToTopOnRouteChange() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    const element = document.documentElement || document.body;
-    element.scrollTo({ top: 0, behavior: 'instant' });
-  }, [pathname]);
-
-  return null;
-}
+import locomotiveScroll from 'locomotive-scroll';
 
 function App() {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
+  const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(null);
+
+  useEffect(() => {
+    const scroll = new locomotiveScroll({
+      el: scrollRef.current!,
+      smooth: true
+    });
+    setScrollInstance(scroll);
+
+    return () => {
+      if (scrollInstance) {
+        scrollInstance.destroy();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (scrollInstance) {
+      scrollInstance.destroy();
+      scrollInstance.init();
+    }
+  }, [location.pathname, scrollInstance]);
+
   return (
     <>
-      <ScrollToTopOnRouteChange />
       <Nav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Work />} />
-        <Route path="/work/nuon" element={<Nuon />} />
-        <Route path="/work/culture-homes" element={<CultureHomes />} />
-        <Route path="/work/trusted-node" element={<TNode />} />
-        <Route path="/work/skyteam" element={<Skyteam />} />
-        <Route path="/work/cfss-gradbook" element={<GradBook />} />
-        <Route path="/work/dogily" element={<Dogily />} />
-        <Route path="*" element={<Work />} />
-      </Routes>
-      <Footer />
+      <main data-scroll-container="true" ref={scrollRef}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/work/nuon" element={<Nuon />} />
+          <Route path="/work/culture-homes" element={<CultureHomes />} />
+          <Route path="/work/trusted-node" element={<TNode />} />
+          <Route path="/work/skyteam" element={<Skyteam />} />
+          <Route path="/work/cfss-gradbook" element={<GradBook />} />
+          <Route path="/work/dogily" element={<Dogily />} />
+        </Routes>
+        <Footer />
+      </main>
     </>
   );
 }

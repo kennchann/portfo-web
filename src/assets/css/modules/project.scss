@@ -166,6 +166,28 @@
     }
   }
 
+  &.btn-fixed {
+    z-index: 100;
+    left: 0.6rem;
+
+    @media (min-width: 768px) {
+      & {
+        left: 2.625rem;
+      }
+    }
+
+    &.btn-blue {
+      left: inherit;
+      right: 0.6rem;
+      @media (min-width: 768px) {
+        & {
+          left: inherit;
+          right: 2.625rem;
+        }
+      }
+    }
+  }
+
   &.back {
     align-self: flex-start;
 
@@ -175,11 +197,6 @@
 
     .arrow {
       transform: rotate(210deg);
-    }
-    @media (min-width: 768px) {
-      & {
-        left: 2.625rem;
-      }
     }
   }
 
