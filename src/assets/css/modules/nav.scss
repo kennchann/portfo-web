@@ -2,7 +2,7 @@
 
 nav {
   position: fixed;
-  z-index: 2;
+  z-index: 20;
   top: 0;
   width: 100vw;
   border-bottom: 1px solid var(--color-dark-2);
@@ -136,7 +136,7 @@ html.has-scroll-scrolling {
 
 nav.active {
   .menu-wrap {
-    height: 60vh;
+    height: 80vh;
 
     @media (min-width: 768px) {
       & {

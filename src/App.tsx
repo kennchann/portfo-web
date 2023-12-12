@@ -12,7 +12,7 @@ import Skyteam from './pages/skyteam';
 import GradBook from './pages/cfss-gradbook';
 import Dogily from './pages/dogily';
 
-import locomotiveScroll from 'locomotive-scroll';
+import locomotiveScroll from 'locomotive-scroll'
 
 function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -20,10 +20,20 @@ function App() {
   const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(null);
 
   useEffect(() => {
-    const scroll = new locomotiveScroll({
+    const scrollOptions: LocomotiveScroll.InstanceOptions = {
       el: scrollRef.current!,
-      smooth: true
-    });
+      smooth: true,
+      reloadOnContextChange: true,
+      smartphone: {
+        smooth: true,
+      },
+      tablet: {
+        smooth: true,
+        breakpoint: 768
+      },
+    };
+
+    const scroll = new locomotiveScroll(scrollOptions);
     setScrollInstance(scroll);
 
     return () => {
