@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import Arrow from "../assets/svg/arrow.svg";
 import { useNavigate } from "react-router-dom";
 
@@ -10,6 +11,9 @@ function GradBook() {
 
   return (
     <>
+    <Helmet>
+      <title>CFSS GradBook | Kenneth Chan</title>
+    </Helmet>
     <div className="prj-btn-wrap btn-fixed back">
       <button className="prj-btn" onClick={handleBack}>
         <img className="arrow" src={Arrow} alt="Arrow" />

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 
@@ -61,6 +62,9 @@ function App() {
     <>
       <Nav />
       <main data-scroll-container="true" ref={scrollRef}>
+        <Helmet>
+          <title>Kenneth Chan</title> {/* Default title */}
+        </Helmet>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
