@@ -11,6 +11,7 @@ import TNode from "./pages/tnode";
 import Skyteam from "./pages/skyteam";
 import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
+import NotFound from "./pages/not-found";
 
 import locomotiveScroll from "locomotive-scroll";
 
@@ -69,6 +70,7 @@ function App() {
           <Route path="/work/skyteam" element={<Skyteam />} />
           <Route path="/work/cfss-gradbook" element={<GradBook />} />
           <Route path="/work/dogily" element={<Dogily />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </main>
