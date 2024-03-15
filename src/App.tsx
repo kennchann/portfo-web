@@ -33,7 +33,7 @@ function App() {
       touchMultiplier: 2.5,
 
       smartphone: {
-        smooth: true,
+        smooth: false,
       },
       tablet: {
         smooth: false,
