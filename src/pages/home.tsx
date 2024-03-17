@@ -11,17 +11,17 @@ function Home() {
             <span className="highlight list-item">Brand Identity</span>
             <span className="highlight list-item">Web Development</span>
           </div>
-          <div data-scroll className="wow slideInLeft hero-content col-xl">
+          <div data-scroll className="hero-content col-xl">
             <h1>
               Seamlessly blending aesthetics and functionality in web and UI
               designs to create captivating digital experiences.
             </h1>
             <div className="ellipse-container">
               <div className="ellipse-wrap">
-                <div data-scroll-speed="2" className="ellipse"></div>
+                <div data-scroll data-scroll-speed="-0.5" className="ellipse ellipse-fx"></div>
               </div>
               <div className="ellipse-wrap">
-                <div data-scroll-speed="2" className="ellipse"></div>
+                <div data-scroll data-scroll-speed="-0.5" className="ellipse ellipse-fx fx2"></div>
               </div>
             </div>
           </div>

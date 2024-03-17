@@ -221,7 +221,8 @@
   width: 100%;
   aspect-ratio: 5 / 3;
   overflow: hidden;
-  background: var(--color-dark-2);
+  background: var(--color-dark-1);
+  border-radius: 0.3rem;
 }
 
 .work-wrap .img-container::before {
