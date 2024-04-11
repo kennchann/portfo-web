@@ -202,6 +202,15 @@
     object-fit: cover;
   }
 }
+.aspect-9-10 {
+  aspect-ratio: 9/10 !important;
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+  }
+}
 .aspect-4-3 {
   aspect-ratio: 4/3 !important;
 

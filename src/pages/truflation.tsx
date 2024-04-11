@@ -76,7 +76,8 @@ function Truflation() {
               </div>
               <div className="col-xl list">
                 <p className="list-item">Graphic Design</p>
-                <p className="list-item">Infographics/ Data Visualisation</p>
+                <p className="list-item">Infographics</p>
+                <p className="list-item">Data Visualisation</p>
                 <p className="list-item">Presentation Design</p>
               </div>
             </div>

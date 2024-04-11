@@ -79,6 +79,25 @@ function Work() {
             <span className="list-item">Project 04</span>
           </div>
           <div className="work-wrap">
+            <Link to="/work/taihing" className="img-container img-responsive">
+              <img data-scroll data-scroll-speed="-0.5" src="./taihing-bg.webp" alt="" />
+            </Link>
+            <div className="work-detail-wrap">
+              <div className="work-detail">
+                <h2 className="work-title">Tai Hing</h2>
+                <span className="work-brief">
+                  Tai Hing Group is a restaurant chain in Hong Kong.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <div className="list col-xs">
+            <span className="list-item">Project 05</span>
+          </div>
+          <div className="work-wrap">
             <Link
               to="/work/trusted-node"
               className="img-container img-responsive"
@@ -99,7 +118,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 05</span>
+            <span className="list-item">Project 06</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
@@ -118,7 +137,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 06</span>
+            <span className="list-item">Project 07</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -141,7 +160,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 07</span>
+            <span className="list-item">Project 08</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">
