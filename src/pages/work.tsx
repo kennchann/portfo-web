@@ -38,6 +38,28 @@ function Work() {
             <span className="list-item">Project 02</span>
           </div>
           <div className="work-wrap">
+            <Link
+              to="/work/truflation"
+              className="img-container img-responsive"
+            >
+              <img data-scroll data-scroll-speed="-0.5" src="./truf-bg-1.webp" alt="" />
+            </Link>
+            <div className="work-detail-wrap">
+              <div className="work-detail">
+                <h2 className="work-title">Truflation</h2>
+                <span className="work-brief">
+                The go-to Data Oracle for RWA, Indexes, and Inflation 18M+ Data Points 60+ Data Providers.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <div className="list col-xs">
+            <span className="list-item">Project 03</span>
+          </div>
+          <div className="work-wrap">
             <Link to="/work/nuon" className="img-container img-responsive">
               <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
             </Link>
@@ -54,7 +76,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 03</span>
+            <span className="list-item">Project 04</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -77,7 +99,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 04</span>
+            <span className="list-item">Project 05</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
@@ -96,7 +118,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 05</span>
+            <span className="list-item">Project 06</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -119,7 +141,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 06</span>
+            <span className="list-item">Project 07</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">

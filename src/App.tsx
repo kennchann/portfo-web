@@ -12,6 +12,7 @@ import TNode from "./pages/tnode";
 import Skyteam from "./pages/skyteam";
 import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
+import Truflation from "./pages/truflation";
 import NotFound from "./pages/not-found";
 
 import locomotiveScroll from "locomotive-scroll";
@@ -68,6 +69,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/work/truflation" element={<Truflation />} />
           <Route path="/work/nuon" element={<Nuon />} />
           <Route path="/work/culture-homes" element={<CultureHomes />} />
           <Route path="/work/trusted-node" element={<TNode />} />
