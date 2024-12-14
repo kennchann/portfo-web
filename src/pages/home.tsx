@@ -3,68 +3,66 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <section data-scroll-section className="hero wrap page-wrap">
+      <section className="hero wrap page-wrap">
         <div className="grid container">
-          <div data-scroll className="col-s list">
+          <div className="col-s list">
             <span className="highlight list-item">Web Design</span>
             <span className="highlight list-item">UI/ UX Design</span>
             <span className="highlight list-item">Brand Identity</span>
             <span className="highlight list-item">Web Development</span>
           </div>
-          <div data-scroll className="hero-content col-xl">
+          <div className="hero-content col-xl">
             <h1>
               Seamlessly blending aesthetics and functionality in web and UI
               designs to create captivating digital experiences.
             </h1>
             <div className="ellipse-container">
               <div className="ellipse-wrap">
-                <div data-scroll data-scroll-speed="-0.5" className="ellipse ellipse-fx"></div>
+                <div className="ellipse ellipse-fx"></div>
               </div>
               <div className="ellipse-wrap">
-                <div data-scroll data-scroll-speed="-0.5" className="ellipse ellipse-fx fx2"></div>
+                <div className="ellipse ellipse-fx fx2"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section data-scroll-section className="excerpt wrap">
+      <section className="excerpt wrap">
         <div className="grid container">
-          <div data-scroll className="col-xl">
+          <div className="col-xl">
             <p>
               With an eye for detail and a passion for creating beautiful
               designs that are both functional and user-friendly, Kenneth is an
               accomplished UI/ Web Designer. His skills in web design, UI/UX
               design, brand design, front-end development, visual design and
-              marketing design make him an invaluable asset to any team looking
-              to create compelling digital experiences.
+              marketing design make him an invaluable asset to any team looking to create compelling digital experiences.
             </p>
-            <button data-scroll className="prj-btn">
+            <button className="prj-btn">
               <h3>Coming Soon</h3>
             </button>
           </div>
         </div>
       </section>
 
-      <section data-scroll-section className="work featured">
+      <section className="work featured">
         <div className="grid container">
           <div className="work-item">
-            <div data-scroll className="list col-xs">
+            <div className="list col-xs">
               <span className="list-item">Project 01</span>
             </div>
-            <div data-scroll className="work-wrap">
+            <div className="work-wrap">
               <Link
-                to="/work/culture-homes"
+                to="/work/op"
                 className="img-container img-responsive"
               >
-                <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
+                <img src="./op-bg-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
-                  <h2 className="work-title">Culture Homes</h2>
+                  <h2 className="work-title">Ocean Park Halloween 2024</h2>
                   <span className="work-brief">
-                    End-to-end integrated solution provider for elderly care and
-                    services.
+                  A campaign website for Ocean Park's Halloween 2024 event.
                   </span>
                 </div>
               </div>
@@ -72,12 +70,12 @@ function Home() {
           </div>
 
           <div className="work-item">
-            <div data-scroll className="list col-xs">
+            <div className="list col-xs">
               <span className="list-item">Project 02</span>
             </div>
-            <div data-scroll className="work-wrap">
+            <div className="work-wrap">
               <Link to="/work/nuon" className="img-container img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
+                <img src="./nuon-poster-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
@@ -91,27 +89,28 @@ function Home() {
           </div>
 
           <div className="work-item">
-            <div data-scroll className="list col-xs">
+            <div className="list col-xs">
               <span className="list-item">Project 03</span>
             </div>
-            <div data-scroll className="work-wrap">
+            <div className="work-wrap">
               <Link
-                to="/work/trusted-node"
+                to="/work/culture-homes"
                 className="img-container img-responsive"
               >
-                <img data-scroll data-scroll-speed="-0.5" src="./tnode-poster-1.webp" alt="" />
+                <img src="./culture-web-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
-                  <h2 className="work-title">Trusted Node</h2>
+                  <h2 className="work-title">Culture Homes</h2>
                   <span className="work-brief">
-                    Decentralized, non-custodial validator service and
-                    governance hub.
+                    End-to-end integrated solution provider for elderly care and
+                    services.
                   </span>
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </section>
     </>

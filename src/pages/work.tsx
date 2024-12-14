@@ -10,23 +10,23 @@ function Work() {
         </div>
       </div>
       <div data-scroll-section className="grid container">
+
         <div className="work-item">
           <div className="list col-xs">
             <span className="list-item">Project 01</span>
           </div>
           <div className="work-wrap">
             <Link
-              to="/work/culture-homes"
+              to="/work/op"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
+              <img data-scroll data-scroll-speed="-0.5" src="./op-bg-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
-                <h2 className="work-title">Culture Homes</h2>
+                <h2 className="work-title">Ocean Park Halloween 2024</h2>
                 <span className="work-brief">
-                  End-to-end integrated solution provider for elderly care and
-                  services.
+                A campaign website for Ocean Park's Halloween 2024 event.
                 </span>
               </div>
             </div>
@@ -60,6 +60,29 @@ function Work() {
             <span className="list-item">Project 03</span>
           </div>
           <div className="work-wrap">
+            <Link
+              to="/work/culture-homes"
+              className="img-container img-responsive"
+            >
+              <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
+            </Link>
+            <div className="work-detail-wrap">
+              <div className="work-detail">
+                <h2 className="work-title">Culture Homes</h2>
+                <span className="work-brief">
+                  End-to-end integrated solution provider for elderly care and
+                  services.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <div className="list col-xs">
+            <span className="list-item">Project 04</span>
+          </div>
+          <div className="work-wrap">
             <Link to="/work/nuon" className="img-container img-responsive">
               <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
             </Link>
@@ -76,7 +99,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 04</span>
+            <span className="list-item">Project 05</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/taihing" className="img-container img-responsive">
@@ -95,7 +118,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 05</span>
+            <span className="list-item">Project 06</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -118,7 +141,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 06</span>
+            <span className="list-item">Project 07</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
@@ -137,7 +160,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 07</span>
+            <span className="list-item">Project 08</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -160,7 +183,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 08</span>
+            <span className="list-item">Project 09</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">

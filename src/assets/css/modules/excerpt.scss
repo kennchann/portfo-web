@@ -1,8 +1,14 @@
 @import "../_base/branding.scss";
 
 .excerpt {
-  padding: 10rem 0;
+  padding: 6rem 0 2rem 0;
   background-color: var(--color-dark-3);
+
+  @media (min-width: 768px) {
+    & {
+      padding: 10rem 0 2rem 0;
+    }
+  }
 
   p {
     margin-bottom: $spacing-s;

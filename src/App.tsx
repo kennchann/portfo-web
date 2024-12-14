@@ -13,57 +13,58 @@ import Skyteam from "./pages/skyteam";
 import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
 import Truflation from "./pages/truflation";
+import OP from "./pages/op";
 import TaiHing from "./pages/taihing";
 import NotFound from "./pages/not-found";
 
-import locomotiveScroll from "locomotive-scroll";
+// import locomotiveScroll from "locomotive-scroll";
 
 function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
-  const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(
-    null
-  );
+  // const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(
+  //   null
+  // );
 
-  useEffect(() => {
-    const scrollOptions: LocomotiveScroll.InstanceOptions = {
-      el: scrollRef.current!,
-      smooth: true,
-      lerp: 0.1,
-      multiplier: 1.4,
-      reloadOnContextChange: true,
-      touchMultiplier: 2.5,
+  // useEffect(() => {
+  //   const scrollOptions: LocomotiveScroll.InstanceOptions = {
+  //     el: scrollRef.current!,
+  //     smooth: true,
+  //     lerp: 0.1,
+  //     multiplier: 1.4,
+  //     reloadOnContextChange: true,
+  //     touchMultiplier: 2.5,
 
-      smartphone: {
-        smooth: false,
-      },
-      tablet: {
-        smooth: false,
-        breakpoint: 1024,
-      },
-    };
+  //     smartphone: {
+  //       smooth: false,
+  //     },
+  //     tablet: {
+  //       smooth: false,
+  //       breakpoint: 1024,
+  //     },
+  //   };
 
-    const scroll = new locomotiveScroll(scrollOptions);
-    setScrollInstance(scroll);
+  //   const scroll = new locomotiveScroll(scrollOptions);
+  //   setScrollInstance(scroll);
 
-    return () => {
-      if (scrollInstance) {
-        scrollInstance.destroy();
-      }
-    };
-  }, []);
+  //   return () => {
+  //     if (scrollInstance) {
+  //       scrollInstance.destroy();
+  //     }
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    if (scrollInstance) {
-      scrollInstance.destroy();
-      scrollInstance.init();
-    }
-  }, [location.pathname, scrollInstance]);
+  // useEffect(() => {
+  //   if (scrollInstance) {
+  //     scrollInstance.destroy();
+  //     scrollInstance.init();
+  //   }
+  // }, [location.pathname, scrollInstance]);
 
   return (
     <>
       <Nav />
-      <main data-scroll-container="true" ref={scrollRef}>
+      <main>
         <Helmet>
           <title>Kenneth Chan</title> {/* Default title */}
         </Helmet>
@@ -71,6 +72,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/work/truflation" element={<Truflation />} />
+          <Route path="/work/op" element={<OP />} />
           <Route path="/work/taihing" element={<TaiHing />} />
           <Route path="/work/nuon" element={<Nuon />} />
           <Route path="/work/culture-homes" element={<CultureHomes />} />

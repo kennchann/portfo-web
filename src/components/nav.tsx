@@ -75,7 +75,7 @@ function Nav(): JSX.Element {
           <div className="list">
             <span className="list-item">Instagram</span>
             <span className="list-item">Behance</span>
-            <span className="list-item">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/kennchann/"><span className="list-item">LinkedIn</span></a>
           </div>
         </div>
       </div>

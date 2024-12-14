@@ -144,7 +144,7 @@ function TNode() {
                 <img data-scroll data-scroll-speed="-0.5" src="../tnode-ui-2.webp" alt="" />
               </div>
             </div>
-            <div className="col-l grid-end">
+            <div className="col-half grid-end">
               <div className="img-container aspect-4-3">
                 <img data-scroll data-scroll-speed="-0.5" src="../tnode-ui-3.webp" alt="" />
               </div>

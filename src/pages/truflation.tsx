@@ -111,12 +111,12 @@ function Truflation() {
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-info-1.webp" alt="" />
               </div>
             </div>
-            <div className="col-l">
+            <div className="col-half">
               <div className="img-container aspect-16-9">
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-info-2.webp" alt="" />
               </div>
             </div>
-            <div className="col-l">
+            <div className="col-half">
               <div className="img-container aspect-16-9">
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-social-3.webp" alt="" />
               </div>

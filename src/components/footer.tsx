@@ -3,9 +3,9 @@ import '../assets/css/modules/footer.scss'
 
 function Footer() {
   return (
-    <footer data-scroll-section>
+    <footer>
       <div className="grid container">
-        <div className="footer-left" data-scroll>
+        <div className="footer-left">
           <span className='col-s'>©2023 Kenneth Chan. All rights reserved</span>
           <div className='list col-xs'>
             <a href='/' className="list-item"><span>Home</span></a>
@@ -19,7 +19,7 @@ function Footer() {
             <a className="list-item"><span>LinkedIn</span></a>
           </div>
         </div>
-        <button className="prj-btn grid-end" data-scroll>
+        <button className="prj-btn grid-end">
           <a href="mailto:nethhsd@gmail.com?subject=Hello"><h2>Let's Talk</h2></a>
         </button>
       </div>
