@@ -1,5 +1,7 @@
-import { useEffect, useRef, useState } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
+// import { useEffect, useRef, useState } from "react";
+// import { useRef } from "react";
+// import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
@@ -20,8 +22,8 @@ import NotFound from "./pages/not-found";
 // import locomotiveScroll from "locomotive-scroll";
 
 function App() {
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const location = useLocation();
+  // const scrollRef = useRef<HTMLDivElement>(null);
+  // const location = useLocation();
   // const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(
   //   null
   // );
