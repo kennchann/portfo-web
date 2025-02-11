@@ -1,7 +1,5 @@
-// import { useEffect, useRef, useState } from "react";
-// import { useRef } from "react";
-// import { Routes, Route, useLocation } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
@@ -19,49 +17,12 @@ import OP from "./pages/op";
 import TaiHing from "./pages/taihing";
 import NotFound from "./pages/not-found";
 
-// import locomotiveScroll from "locomotive-scroll";
-
 function App() {
-  // const scrollRef = useRef<HTMLDivElement>(null);
-  // const location = useLocation();
-  // const [scrollInstance, setScrollInstance] = useState<locomotiveScroll | null>(
-  //   null
-  // );
+  const location = useLocation();
 
-  // useEffect(() => {
-  //   const scrollOptions: LocomotiveScroll.InstanceOptions = {
-  //     el: scrollRef.current!,
-  //     smooth: true,
-  //     lerp: 0.1,
-  //     multiplier: 1.4,
-  //     reloadOnContextChange: true,
-  //     touchMultiplier: 2.5,
-
-  //     smartphone: {
-  //       smooth: false,
-  //     },
-  //     tablet: {
-  //       smooth: false,
-  //       breakpoint: 1024,
-  //     },
-  //   };
-
-  //   const scroll = new locomotiveScroll(scrollOptions);
-  //   setScrollInstance(scroll);
-
-  //   return () => {
-  //     if (scrollInstance) {
-  //       scrollInstance.destroy();
-  //     }
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   if (scrollInstance) {
-  //     scrollInstance.destroy();
-  //     scrollInstance.init();
-  //   }
-  // }, [location.pathname, scrollInstance]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   return (
     <>
