@@ -14,6 +14,7 @@ import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
 import Truflation from "./pages/truflation";
 import OP from "./pages/op";
+import CTF from "./pages/ctf";
 import TaiHing from "./pages/taihing";
 import NotFound from "./pages/not-found";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/work/truflation" element={<Truflation />} />
           <Route path="/work/op" element={<OP />} />
+          <Route path="/work/ctf" element={<CTF />} />
           <Route path="/work/taihing" element={<TaiHing />} />
           <Route path="/work/nuon" element={<Nuon />} />
           <Route path="/work/culture-homes" element={<CultureHomes />} />

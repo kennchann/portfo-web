@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="grid container">
         <div className="footer-left">
-          <span className='col-s'>©2023 Kenneth Chan. All rights reserved</span>
+          <span className='col-s'>©2025 Kenneth Chan. All rights reserved</span>
           <div className='list col-xs'>
             <a href='/' className="list-item"><span>Home</span></a>
             <Link to="/work" className="list-item"><span>Work</span></Link>

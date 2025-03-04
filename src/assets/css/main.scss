@@ -4,6 +4,7 @@
 @import "_base/text.scss";
 @import "_base/forms.scss";
 @import "_base/ellipse.scss";
+@import "_base/carousel.scss";
 // @import "_base/locomotive-scroll.scss";
 
 @import "modules/nav.scss";
@@ -52,7 +53,6 @@ a {
   text-decoration: inherit;
   transition: all 200ms cubic-bezier(0.77, 0.08, 0.51, 0.83);
   line-height: 1.05;
-  letter-spacing: -0.02em;
   width: fit-content;
 
   span:hover {
