@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 import Arrow from "../assets/svg/arrow.svg";
 import { useNavigate } from 'react-router-dom';
-import VideoComponent from "../assets/video/video";
 
 function CTF() {
   const navigate = useNavigate();
