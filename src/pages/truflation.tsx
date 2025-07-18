@@ -126,6 +126,26 @@ function Truflation() {
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-social-2.webp" alt="" />
               </div>
             </div>
+            <div className="col-full">
+              <div className="img-container inherit img-responsive">
+                <img data-scroll data-scroll-speed="-0.5" src="../truf-infographic-1.webp" alt="" />
+              </div>
+            </div>
+            <div className="col-full">
+              <div className="img-container inherit img-responsive">
+                <img data-scroll data-scroll-speed="-0.5" src="../truf-infographic-2.webp" alt="" />
+              </div>
+            </div>
+            <div className="col-s">
+              <div className="img-container inherit">
+                <img src="../truf-infographic-3.webp" alt="" />
+              </div>
+            </div>
+            <div className="col-xl">
+              <div className="img-container inherit">
+                <img data-scroll data-scroll-speed="-0.5" src="../truf-infographic-4.webp" alt="" />
+              </div>
+            </div>
             <div className="col-s">
               <div className="img-container aspect-16-9">
                 <img src="../truf-social-5.webp" alt="" />
