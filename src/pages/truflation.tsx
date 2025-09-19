@@ -98,12 +98,7 @@ function Truflation() {
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-countdown.webp" alt="" />
-              </div>
-            </div>
-            <div className="col-full">
-              <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-social-1.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../truf-bg-3.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
@@ -123,7 +118,7 @@ function Truflation() {
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-social-2.webp" alt="" />
+                <img data-scroll data-scroll-speed="-0.5" src="../truf-countdown.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
@@ -156,9 +151,31 @@ function Truflation() {
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-social-4.webp" alt="" />
               </div>
             </div>
-            <div className="col-xl">
-              <div className="img-container aspect-2-7">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-web-1.webp" alt="" />
+          </div>
+        </section>
+
+        <section className="preview wrap">
+          <div className="grid container">
+            <div className="col-half">
+              <div className="img-wrap">
+                <div className="img-container inherit">
+                  <img src="../truf-web-1.webp" alt="" />
+                </div>
+                <div className="img-alt">
+                  <div className='dot'></div>
+                  <span className="highlight">Investor page</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-half">
+              <div className="img-wrap">
+                <div className="img-container inherit">
+                  <img src="../truf-web-2.webp" alt="" />
+                </div>
+                <div className="img-alt">
+                  <div className='dot'></div>
+                  <span className="highlight">Pricing page</span>
+                </div>
               </div>
             </div>
           </div>

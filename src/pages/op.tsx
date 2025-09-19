@@ -214,7 +214,7 @@ function OP() {
                 </div>
                 <div className="img-alt">
                   <div className='dot'></div>
-                  <span className="highlight">UI Library</span>
+                  <span className="highlight">UI library</span>
                 </div>
               </div>
             </div>
