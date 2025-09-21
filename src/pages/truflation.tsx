@@ -86,22 +86,69 @@ function Truflation() {
 
         <section data-scroll className="preview wrap">
           <div className="grid container">
-            <div className="col-s">
-              <div className="img-container aspect-1-1">
-                <img src="../truf-logo.webp" alt="" />
-              </div>
-            </div>
-            <div className="col-xl">
-              <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-bg-2.webp" alt="" />
-              </div>
-            </div>
             <div className="col-full">
-              <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-bg-3.webp" alt="" />
+              <div className="carousel">
+                <div className="carousel-group">
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-1.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-2.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-6.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-7.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-8.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-9.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-10.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-11.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-12.webp" alt="" />
+                  </div>
+                </div>
+                <div aria-hidden className="carousel-group">
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-1.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-2.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-6.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-7.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-8.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-9.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-10.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-11.webp" alt="" />
+                  </div>
+                  <div className="carousel-card img-container aspect-16-9">
+                    <img src="../truf-social-12.webp" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-xl">
+            <div className="col-half">
               <div className="img-container aspect-16-9">
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-info-1.webp" alt="" />
               </div>
@@ -109,11 +156,6 @@ function Truflation() {
             <div className="col-half">
               <div className="img-container aspect-16-9">
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-info-2.webp" alt="" />
-              </div>
-            </div>
-            <div className="col-half">
-              <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-social-3.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
@@ -139,16 +181,6 @@ function Truflation() {
             <div className="col-xl">
               <div className="img-container inherit">
                 <img data-scroll data-scroll-speed="-0.5" src="../truf-infographic-4.webp" alt="" />
-              </div>
-            </div>
-            <div className="col-s">
-              <div className="img-container aspect-16-9">
-                <img src="../truf-social-5.webp" alt="" />
-              </div>
-            </div>
-            <div className="col-xl">
-              <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../truf-social-4.webp" alt="" />
               </div>
             </div>
           </div>
