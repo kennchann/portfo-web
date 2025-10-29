@@ -39,7 +39,11 @@ function Home() {
               marketing design make him an invaluable asset to any team looking to create compelling digital experiences.
             </p>
             <button className="prj-btn">
-              <h3>Coming Soon</h3>
+              <Link
+                to="/work"
+              >
+              <h3>View Works</h3>
+              </Link>
             </button>
           </div>
         </div>
@@ -47,9 +51,32 @@ function Home() {
 
       <section className="work featured">
         <div className="grid container">
+
           <div className="work-item">
             <div className="list col-xs">
               <span className="list-item">Project 01</span>
+            </div>
+            <div className="work-wrap">
+              <Link
+                to="/work/ctf"
+                className="img-container img-responsive"
+              >
+                <img src="./ctf-bg-1.webp" alt="" />
+              </Link>
+              <div className="work-detail-wrap">
+                <div className="work-detail">
+                  <h2 className="work-title">CTF Club Loyalty App</h2>
+                  <span className="work-brief">
+                    Membership App for CTF Club.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="work-item">
+            <div className="list col-xs">
+              <span className="list-item">Project 02</span>
             </div>
             <div className="work-wrap">
               <Link
@@ -71,40 +98,17 @@ function Home() {
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Project 02</span>
-            </div>
-            <div className="work-wrap">
-              <Link to="/work/nuon" className="img-container img-responsive">
-                <img src="./nuon-poster-1.webp" alt="" />
-              </Link>
-              <div className="work-detail-wrap">
-                <div className="work-detail">
-                  <h2 className="work-title">Nuon Finance</h2>
-                  <span className="work-brief">
-                    Nuon.fi is a safe and transparent DeFi protocol.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="work-item">
-            <div className="list col-xs">
               <span className="list-item">Project 03</span>
             </div>
             <div className="work-wrap">
-              <Link
-                to="/work/culture-homes"
-                className="img-container img-responsive"
-              >
-                <img src="./culture-web-1.webp" alt="" />
+              <Link to="/work/truflation" className="img-container img-responsive">
+                <img src="./truf-bg-1.webp" alt="" />
               </Link>
               <div className="work-detail-wrap">
                 <div className="work-detail">
-                  <h2 className="work-title">Culture Homes</h2>
+                  <h2 className="work-title">Truflation</h2>
                   <span className="work-brief">
-                    End-to-end integrated solution provider for elderly care and
-                    services.
+                    The go-to Data Oracle for RWA, Indexes, and Inflation 18M+ Data Points 60+ Data Providers.
                   </span>
                 </div>
               </div>
