@@ -252,7 +252,7 @@ function Crunch() {
             </div>
             <div className="col-xl">
               <div className="img-wrap">
-                <div className="img-container centered">
+                <div className="img-container centered aspect-16-9">
                   <img src="../crunch-info-1.webp" alt="" />
                 </div>
                 <div className="img-alt">
