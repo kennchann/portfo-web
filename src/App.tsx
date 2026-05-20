@@ -13,6 +13,7 @@ import Skyteam from "./pages/skyteam";
 import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
 import Truflation from "./pages/truflation";
+import Crunch from "./pages/crunch";
 import OP from "./pages/op";
 import CTF from "./pages/ctf";
 import TaiHing from "./pages/taihing";
@@ -35,6 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/work/crunch" element={<Crunch />} />
           <Route path="/work/truflation" element={<Truflation />} />
           <Route path="/work/op" element={<OP />} />
           <Route path="/work/ctf" element={<CTF />} />

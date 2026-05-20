@@ -17,6 +17,28 @@ function Work() {
           </div>
           <div className="work-wrap">
             <Link
+              to="/work/crunch"
+              className="img-container img-responsive"
+            >
+              <img data-scroll data-scroll-speed="-0.5" src="./crunch-bg-1.webp" alt="" />
+            </Link>
+            <div className="work-detail-wrap">
+              <div className="work-detail">
+                <h2 className="work-title">CrunchDAO</h2>
+                <span className="work-brief">
+                CrunchDAO builts the intelligence layer for decentralized AI.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div className="work-item">
+          <div className="list col-xs">
+            <span className="list-item">Project 02</span>
+          </div>
+          <div className="work-wrap">
+            <Link
               to="/work/ctf"
               className="img-container img-responsive"
             >
@@ -35,7 +57,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 02</span>
+            <span className="list-item">Project 03</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -57,7 +79,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 03</span>
+            <span className="list-item">Project 04</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -79,7 +101,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 04</span>
+            <span className="list-item">Project 05</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -102,7 +124,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 05</span>
+            <span className="list-item">Project 06</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/nuon" className="img-container img-responsive">
@@ -121,7 +143,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 06</span>
+            <span className="list-item">Project 07</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/taihing" className="img-container img-responsive">
@@ -140,7 +162,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 07</span>
+            <span className="list-item">Project 08</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -163,7 +185,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 08</span>
+            <span className="list-item">Project 09</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
@@ -182,7 +204,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 09</span>
+            <span className="list-item">Project 10</span>
           </div>
           <div className="work-wrap">
             <Link
@@ -205,7 +227,7 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 10</span>
+            <span className="list-item">Project 11</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">
