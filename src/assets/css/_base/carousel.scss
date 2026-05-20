@@ -43,7 +43,7 @@
 .carousel {
   position: relative;
   display: flex;
-  padding: 20%;
+  padding: 15%;
   mask-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0) 0%,
@@ -53,7 +53,7 @@
   );
 
   @media (min-width: 992px) {
-    padding: 10%;
+    padding: 5%;
   }
 
   > * {
@@ -67,8 +67,9 @@
 
 .carousel-group {
   display: flex;
+  align-items: center;
   will-change: transform;
-  animation: scrolling 20s linear infinite;
+  animation: scrolling 25s linear infinite;
 }
 
 @keyframes scrolling {

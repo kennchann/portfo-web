@@ -232,14 +232,8 @@
 .aspect-4-9 {
   aspect-ratio: 4/9 !important;
 }
-.aspect-2-7 {
-  aspect-ratio: 2/7 !important;
-
-  img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-  }
+.aspect-5-2 {
+  aspect-ratio: 5/2 !important;
 }
 
 // Image Container

@@ -21,6 +21,14 @@ function Crunch() {
         <h2>Back</h2>
       </button>
     </div>
+    <div className="prj-btn-wrap btn-fixed btn-blue">
+      <a href="https://www.figma.com/proto/f7xTinuqVAnSBsAW64NJuu/CrunchDAO?node-id=7-16125&viewport=1297%2C3908%2C0.33&t=yQmt5PUcjBKrdwbl-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7%3A16125&page-id=1%3A90799" target="_blank">
+        <button className="prj-btn">
+          <h2>Prototype</h2>
+          <img className="arrow" src={Arrow} alt="Arrow" />
+        </button>
+      </a>
+    </div>
       <div data-scroll-section className="project wrap">
         <section data-scroll className="prj-hero">
           <div className="grid container prj-title">
@@ -32,7 +40,9 @@ function Crunch() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-          <img data-scroll data-scroll-speed="-3" src="../crunch-bg-1.webp" alt="" />
+                <div className="img-container vid-container">
+                <VideoComponent videoSource="/crunch-vid-2.mp4" />
+                </div>
           </div>
         </section>
 
@@ -44,7 +54,7 @@ function Crunch() {
             </div>
             <div className="grid-col col-xl">
               <p>
-              as a UI/UX and Visual Designer at CrunchDAO, I contribute to an ecosystem where high-stakes financial data meets immersive digital experience. CrunchDAO leverages a decentralized network of machine learning engineers to build predictive modeling markets, effectively bridging the gap between rigorous technical infrastructure and user-centric applications. My work spans the brand’s visual output, ranging from marketing collateral, whitepaper infographics, storyboarding and motion branding to internal design assets. Most notably, I designed the UI/UX for Crunch Capital, an AI-driven trading simulation competition. In this project, I engineered the interactive user journey from strategy selection to social performance sharing, while adapting the platform’s high-tech retro aesthetic to gamify institutional-grade sentiment analysis and backtesting.
+              CrunchDAO leverages a decentralized network of machine learning engineers to build predictive modeling markets, bridging the gap between rigorous technical infrastructure and user-centric applications. As the UI/UX and Visual Designer, my work spans the brand’s visual output, ranging from marketing collateral, whitepaper infographics, and storyboarding to motion branding and internal design assets. A notable milestone was shaping the digital experience for Crunch Capital, an AI-driven trading simulation competition. This involved designing the overall user interface and engineering the interactive user journey. By proposing a retro gaming UI aesthetic, institutional-grade sentiment analysis and backtesting were successfully gamified, resulting in a visually compelling product strictly aligned with the core brand.
               </p>
             </div>
           </div>
@@ -124,9 +134,6 @@ function Crunch() {
                   <div className="carousel-card img-container aspect-1-1">
                     <img src="../crunch-social-11.webp" alt="" />
                   </div>
-                  <div className="carousel-card img-container aspect-1-1">
-                    <img src="../crunch-social-12.webp" alt="" />
-                  </div>
                   <div className="carousel-card img-container aspect-16-9">
                     <img src="../crunch-social-13.webp" alt="" />
                   </div>
@@ -177,9 +184,6 @@ function Crunch() {
                   <div className="carousel-card img-container aspect-1-1">
                     <img src="../crunch-social-11.webp" alt="" />
                   </div>
-                  <div className="carousel-card img-container aspect-1-1">
-                    <img src="../crunch-social-12.webp" alt="" />
-                  </div>
                   <div className="carousel-card img-container aspect-16-9">
                     <img src="../crunch-social-13.webp" alt="" />
                   </div>
@@ -203,7 +207,28 @@ function Crunch() {
 
         <section className="preview wrap">
           <div className="grid container">
-            <div className="col-s">
+            <div className="col-full">
+              <div className="img-wrap">
+                <div className="img-container aspect-16-9">
+                  <img src="../crunch-capital-1.webp" alt="" />
+                </div>
+                <div className="img-alt">
+                  <div className='dot'></div>
+                  <span className="highlight">Crunch Capital</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl">
+              <p>Crunch Capital is an AI-powered trading simulation competition that <span className="feature">gamifies</span> the world of financial news analysis. It allows users to step into the shoes of a hedge fund manager with $50,000,000 in paper capital. Through a three-step engine, users select data feeds, define trading logic, and use natural language prompts to backtest two years of Bloomberg TV sentiment against Bitcoin price movements. The platform features a high-tech retro aesthetic, utilizing amber-phosphor terminal interfaces and dithered bitmap graphics to build a high-stakes, institutional atmosphere.
+              </p>
+              <p>As the UI/UX Designer, I collaborate closely with the marketing director and developers to <span className="feature">define the brand voice</span>, <span className="feature">build a unified visual design system</span>, and <span className="feature">architect the entire user journey</span> from the initial strategy setup to the final social performance sharing.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="preview wrap">
+          <div className="grid container">
+            <div className="col-m">
               <div className="img-wrap">
                 <div className="img-container centered vid-container aspect-1-1">
                 <VideoComponent videoSource="/crunch-vid-1.mp4" />
@@ -214,9 +239,9 @@ function Crunch() {
                 </div>
               </div>
             </div>
-            <div className="col-xl">
+            <div className="col-l">
               <div className="img-wrap">
-                <div className="img-container centered vid-container">
+                <div className="img-container centered vid-container aspect-5-2">
                 <VideoComponent videoSource="/crunch-vid-2.mp4" />
                 </div>
                 <div className="img-alt">
@@ -225,8 +250,20 @@ function Crunch() {
                 </div>
               </div>
             </div>
+            <div className="col-xl">
+              <div className="img-wrap">
+                <div className="img-container centered">
+                  <img src="../crunch-info-1.webp" alt="" />
+                </div>
+                <div className="img-alt">
+                  <div className='dot'></div>
+                  <span className="highlight">Infographics for Crunch Litepaper</span>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
+
       </div>
     </>
   );
