@@ -57,6 +57,25 @@ function Home() {
               <span className="list-item">Project 01</span>
             </div>
             <div className="work-wrap">
+              <Link to="/work/crunch" className="img-container img-responsive">
+                <img src="./crunch-bg-1.webp" alt="" />
+              </Link>
+              <div className="work-detail-wrap">
+                <div className="work-detail">
+                  <h2 className="work-title">CrunchDAO</h2>
+                  <span className="work-brief">
+                    CrunchDAO builts the intelligence layer for decentralized AI.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="work-item">
+            <div className="list col-xs">
+              <span className="list-item">Project 02</span>
+            </div>
+            <div className="work-wrap">
               <Link
                 to="/work/ctf"
                 className="img-container img-responsive"
@@ -76,7 +95,7 @@ function Home() {
 
           <div className="work-item">
             <div className="list col-xs">
-              <span className="list-item">Project 02</span>
+              <span className="list-item">Project 03</span>
             </div>
             <div className="work-wrap">
               <Link
@@ -90,25 +109,6 @@ function Home() {
                   <h2 className="work-title">Ocean Park Halloween 2024</h2>
                   <span className="work-brief">
                   A campaign website for Ocean Park's Halloween 2024 event.
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="work-item">
-            <div className="list col-xs">
-              <span className="list-item">Project 03</span>
-            </div>
-            <div className="work-wrap">
-              <Link to="/work/truflation" className="img-container img-responsive">
-                <img src="./truf-bg-1.webp" alt="" />
-              </Link>
-              <div className="work-detail-wrap">
-                <div className="work-detail">
-                  <h2 className="work-title">Truflation</h2>
-                  <span className="work-brief">
-                    The go-to Data Oracle for RWA, Indexes, and Inflation 18M+ Data Points 60+ Data Providers.
                   </span>
                 </div>
               </div>
