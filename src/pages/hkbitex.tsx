@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 import Arrow from "../assets/svg/arrow.svg";
 import { useNavigate } from 'react-router-dom';
-import VideoComponent from "../assets/video/video";
 
 function HKbitEX() {
   const navigate = useNavigate();
