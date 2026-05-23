@@ -6,10 +6,10 @@ function Work() {
     <section className="work page-wrap">
       <div className="grid container">
         <div className="hero-content col-s grid-end section-title">
-          <h1 data-scroll-section>Work Showcase</h1>
+          <h1>Work Showcase</h1>
         </div>
       </div>
-      <div data-scroll-section className="grid container">
+      <div className="grid container">
 
       <div className="work-item">
           <div className="list col-xs">
@@ -20,7 +20,7 @@ function Work() {
               to="/work/crunch"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./crunch-bg-1.webp" alt="" />
+              <img src="./crunch-bg-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -39,10 +39,32 @@ function Work() {
           </div>
           <div className="work-wrap">
             <Link
+              to="/work/hkbitex"
+              className="img-container img-responsive"
+            >
+              <img src="./hkbitex-bg-1.webp" alt="" />
+            </Link>
+            <div className="work-detail-wrap">
+              <div className="work-detail">
+                <h2 className="work-title">HKbitEX</h2>
+                <span className="work-brief">
+                  A digital asset exchange providing secure spot trading in Hong Kong.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div className="work-item">
+          <div className="list col-xs">
+            <span className="list-item">Project 03</span>
+          </div>
+          <div className="work-wrap">
+            <Link
               to="/work/ctf"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./ctf-bg-1.webp" alt="" />
+              <img src="./ctf-bg-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -57,14 +79,14 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 03</span>
+            <span className="list-item">Project 04</span>
           </div>
           <div className="work-wrap">
             <Link
               to="/work/op"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./op-bg-1.webp" alt="" />
+              <img src="./op-bg-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -79,14 +101,14 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 04</span>
+            <span className="list-item">Project 05</span>
           </div>
           <div className="work-wrap">
             <Link
               to="/work/truflation"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./truf-bg-1.webp" alt="" />
+              <img src="./truf-bg-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -101,14 +123,14 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 05</span>
+            <span className="list-item">Project 06</span>
           </div>
           <div className="work-wrap">
             <Link
               to="/work/culture-homes"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./culture-web-1.webp" alt="" />
+              <img src="./culture-web-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -124,11 +146,11 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 06</span>
+            <span className="list-item">Project 07</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/nuon" className="img-container img-responsive">
-              <img data-scroll data-scroll-speed="-0.5" src="./nuon-poster-1.webp" alt="" />
+              <img src="./nuon-poster-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -143,11 +165,11 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 07</span>
+            <span className="list-item">Project 08</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/taihing" className="img-container img-responsive">
-              <img data-scroll data-scroll-speed="-0.5" src="./taihing-bg.webp" alt="" />
+              <img src="./taihing-bg.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -162,14 +184,14 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 08</span>
+            <span className="list-item">Project 09</span>
           </div>
           <div className="work-wrap">
             <Link
               to="/work/trusted-node"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./tnode-poster-1.webp" alt="" />
+              <img src="./tnode-poster-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -185,11 +207,11 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 09</span>
+            <span className="list-item">Project 10</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/skyteam" className="img-container img-responsive">
-              <img data-scroll data-scroll-speed="-0.5" src="./skyteam-poster.webp" alt="" />
+              <img src="./skyteam-poster.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -204,14 +226,14 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 10</span>
+            <span className="list-item">Project 11</span>
           </div>
           <div className="work-wrap">
             <Link
               to="/work/cfss-gradbook"
               className="img-container img-responsive"
             >
-              <img data-scroll data-scroll-speed="-0.5" src="./cfss-book-1.webp" alt="" />
+              <img src="./cfss-book-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">
@@ -227,11 +249,11 @@ function Work() {
 
         <div className="work-item">
           <div className="list col-xs">
-            <span className="list-item">Project 11</span>
+            <span className="list-item">Project 12</span>
           </div>
           <div className="work-wrap">
             <Link to="/work/dogily" className="img-container img-responsive">
-              <img data-scroll data-scroll-speed="-0.5" src="./dogily-mobile-1.webp" alt="" />
+              <img src="./dogily-mobile-1.webp" alt="" />
             </Link>
             <div className="work-detail-wrap">
               <div className="work-detail">

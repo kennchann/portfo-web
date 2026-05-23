@@ -28,7 +28,7 @@ function CultureHomes() {
         </button>
       </a>
     </div>
-      <div data-scroll-section className="project wrap">
+      <div className="project wrap">
         <section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
@@ -39,7 +39,7 @@ function CultureHomes() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-          <img data-scroll data-scroll-speed="-3" src="../culture-web-1.webp" alt="" />
+          <img src="../culture-web-1.webp" alt="" />
           </div>
         </section>
 
@@ -105,12 +105,12 @@ function CultureHomes() {
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../culture-bg.webp" alt="" />
+                <img src="../culture-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../culture-ui-1.webp" alt="" />
+                <img src="../culture-ui-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl flex">

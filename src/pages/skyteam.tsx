@@ -20,8 +20,8 @@ function Skyteam() {
         <h2>Back</h2>
       </button>
     </div>
-      <div data-scroll-section className="project wrap">
-        <section data-scroll className="prj-hero">
+      <div className="project wrap">
+        <section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
@@ -31,11 +31,11 @@ function Skyteam() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-          <img data-scroll data-scroll-speed="-3" src="../skyteam-poster.webp" alt="" />
+          <img src="../skyteam-poster.webp" alt="" />
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Summary</span>
@@ -53,7 +53,7 @@ function Skyteam() {
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Info</span>
@@ -86,7 +86,7 @@ function Skyteam() {
           </div>
         </section>
 
-        <section data-scroll className="preview wrap">
+        <section className="preview wrap">
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
@@ -95,12 +95,12 @@ function Skyteam() {
             </div>
             <div className="col-xl">
               <div className="img-container aspect-4-3">
-                <img data-scroll data-scroll-speed="-0.5" src="../skyteam-bg.webp" alt="" />
+                <img src="../skyteam-bg.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../skyteam-print-1.webp" alt="" />
+                <img src="../skyteam-print-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl flex">
@@ -114,7 +114,7 @@ function Skyteam() {
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap">
+        <section className="excerpt wrap">
           <div className="grid container">
             <div className="col-xl">
               <p>
@@ -128,16 +128,16 @@ function Skyteam() {
           </div>
         </section>
 
-        <section data-scroll className="preview wrap">
+        <section className="preview wrap">
           <div className="grid container">
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../skyteam-print-2.webp" alt="" />
+                <img src="../skyteam-print-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../skyteam-print-3.webp" alt="" />
+                <img src="../skyteam-print-3.webp" alt="" />
               </div>
             </div>
           </div>

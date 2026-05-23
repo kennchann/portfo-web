@@ -29,8 +29,8 @@ function Crunch() {
         </button>
       </a>
     </div>
-      <div data-scroll-section className="project wrap">
-        <section data-scroll className="prj-hero">
+      <div className="project wrap">
+        <section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
@@ -47,7 +47,7 @@ function Crunch() {
         </section>
 
         
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Summary</span>
@@ -60,7 +60,7 @@ function Crunch() {
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Info</span>
@@ -96,7 +96,7 @@ function Crunch() {
           </div>
         </section>
 
-        <section data-scroll className="preview wrap">
+        <section className="preview wrap">
           <div className="grid container">
             <div className="col-full">
               <div className="carousel">

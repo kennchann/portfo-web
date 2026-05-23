@@ -20,8 +20,8 @@ function GradBook() {
         <h2>Back</h2>
       </button>
     </div>
-      <div data-scroll-section className="project wrap">
-        <section data-scroll className="prj-hero">
+      <div className="project wrap">
+        <section className="prj-hero">
           <div className="grid container prj-title">
             <div className="prj-container col-xl">
               <div className="prj-info">
@@ -31,11 +31,11 @@ function GradBook() {
             </div>
           </div>
           <div className="prj-img img-container img-responsive">
-          <img data-scroll data-scroll-speed="-3" src="../cfss-book-1.webp" alt="" />
+          <img src="../cfss-book-1.webp" alt="" />
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Summary</span>
@@ -53,7 +53,7 @@ function GradBook() {
           </div>
         </section>
 
-        <section data-scroll className="excerpt wrap prj-excerpt">
+        <section className="excerpt wrap prj-excerpt">
           <div className="grid container">
             <div className="grid-col col-s list">
               <span className="highlight list-item">Project Info</span>
@@ -86,36 +86,36 @@ function GradBook() {
           </div>
         </section>
 
-        <section data-scroll className="preview wrap">
+        <section className="preview wrap">
           <div className="grid container">
             <div className="col-s">
               <div className="img-container aspect-1-1">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-bg-1.webp" alt="" />
+                <img src="../cfss-bg-1.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">
               <div className="img-container aspect-16-9">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-print-2.webp" alt="" />
+                <img src="../cfss-print-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-print-3.webp" alt="" />
+                <img src="../cfss-print-3.webp" alt="" />
               </div>
             </div>
             <div className="col-m">
               <div className="img-container aspect-1-1">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-bg-3.webp" alt="" />
+                <img src="../cfss-bg-3.webp" alt="" />
               </div>
             </div>
             <div className="col-xxl">
               <div className="img-container aspect-4-3">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-bg-2.webp" alt="" />
+                <img src="../cfss-bg-2.webp" alt="" />
               </div>
             </div>
             <div className="col-full">
               <div className="img-container aspect-16-9 img-responsive">
-                <img data-scroll data-scroll-speed="-0.5" src="../cfss-print-4.webp" alt="" />
+                <img src="../cfss-print-4.webp" alt="" />
               </div>
             </div>
             <div className="col-xl">

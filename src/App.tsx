@@ -14,6 +14,7 @@ import GradBook from "./pages/cfss-gradbook";
 import Dogily from "./pages/dogily";
 import Truflation from "./pages/truflation";
 import Crunch from "./pages/crunch";
+import HKbitEX from "./pages/hkbitex";
 import OP from "./pages/op";
 import CTF from "./pages/ctf";
 import TaiHing from "./pages/taihing";
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
+          <Route path="/work/hkbitex" element={<HKbitEX />} />
           <Route path="/work/crunch" element={<Crunch />} />
           <Route path="/work/truflation" element={<Truflation />} />
           <Route path="/work/op" element={<OP />} />

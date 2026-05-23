@@ -10,7 +10,7 @@ function NotFound() {
 
   return (
     <>
-      <section data-scroll-section className="unavailable">
+      <section className="unavailable">
         <div className="grid container wrap">
           <h1>Not Available</h1>
           <div className="grid-end back">
